@@ -6,7 +6,7 @@
 Ingeniero Mecánico · BI Analyst · Data Scientist en formación
 
 [![GitHub](https://img.shields.io/badge/GitHub-fcaballerodata-181717?style=flat&logo=github)](https://github.com/fcaballerodata)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Fredys%20Caballero-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/fredyscaballero)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Fredys%20Caballero-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/fcaballerosoto/)
 
 </div>
 
