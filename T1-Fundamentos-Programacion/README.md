@@ -1,5 +1,3 @@
-[README.md](https://github.com/user-attachments/files/28076116/README.md)
-
 # 📘 Fundamentos de Programación — JavaScript
 
 **Trimestre 1 · Marzo – Mayo 2026**  
