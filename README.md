@@ -125,7 +125,7 @@ El objetivo es doble: registro académico personal y portafolio profesional púb
 ## 📬 Contacto
 
 **Fredys Caballero**  
-📍 Barranquilla, Colombia  
+📍 Colombia  
 🔗 [github.com/fcaballerodata](https://github.com/fcaballerodata)
 
 ---
