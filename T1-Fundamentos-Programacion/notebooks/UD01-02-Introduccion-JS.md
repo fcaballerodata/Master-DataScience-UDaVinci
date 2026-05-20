@@ -1,4 +1,4 @@
-(https://github.com/user-attachments/files/28076685/UD01-02-Introduccion-JS.md)# UD1-2 — Introducción a JavaScript
+# UD1-2 — Introducción a JavaScript
 
 **Trimestre 1 · Universidad DaVinci · Maestría en Ciencia de Datos**
 
