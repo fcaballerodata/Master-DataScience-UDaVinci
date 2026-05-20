@@ -1,5 +1,3 @@
-[README.md](https://github.com/user-attachments/files/28076303/README.md)
-
 # 📊 Big Data y Datos Masivos en las Organizaciones
 
 **Trimestre 1 · Marzo – Mayo 2026**  
