@@ -18,7 +18,7 @@ Asignatura enfocada en los fundamentos estadísticos aplicados a la Ciencia de D
 | UD1 | Estadística Descriptiva | [Ver](./notebooks/UD01-Estadistica-Descriptiva.md) | S1 |
 | UD2 | Distribuciones de Probabilidad | [Ver](./notebooks/UD02-Distribuciones-Probabilidad.md) | S2 |
 | UD3 | Diseño de Experimentos (Inferencia Estadística) | [Ver](./notebooks/UD03-Disenio-Experimentos.md) | S3 |
-| UD4 | Regresión Lineal Simple y Múltiple | — | S4 |
+| UD4 | Regresión Lineal Simple y Múltiple | [Ver](./notebooks/UD04-Regresion-Lineal.md) | S4 |
 | UD5 | ANOVA — Análisis de Varianzas | — | S5 |
 | UD6 | Análisis de Datos Categóricos | — | S6 |
 | UD7 | Series de Tiempo | — | S7 |
