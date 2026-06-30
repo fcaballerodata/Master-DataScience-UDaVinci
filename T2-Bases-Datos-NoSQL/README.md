@@ -18,7 +18,7 @@ Asignatura que cubre desde los fundamentos del modelado de bases de datos relaci
 | U1 | Conceptos Generales y Modelado de BD | [Ver](./notebooks/U01-Conceptos-Generales-Modelado.md) | S1 |
 | U2 | DDL y DBMS Oracle | [Ver](./notebooks/U02-DDL-DBMS-Oracle.md) | S2 |
 | U3 | DBMS SQL Server y MongoDB | [Ver](./notebooks/U03-SQLServer-MongoDB.md) | S3 |
-| U4 | SQL Server + SQL avanzado | — | S4 |
+| U4 | SQL Introducción y SQL Consultas, Subconsultas y Funciones | [Ver](./notebooks/U04-SQL-Consultas-Subconsultas.md) | S4 |
 | U5 | SQL múltiples tablas + BD en la Nube | — | S5 |
 | U6 | Bases de Datos Relacionales | — | S6 |
 | U7 | Introducción a BD NoSQL | — | S6 |
@@ -38,7 +38,7 @@ Asignatura que cubre desde los fundamentos del modelado de bases de datos relaci
 | Foro 1 | Conceptos Generales y Modelado de BD | S1 | [Ver](./foros/Foro1-Conceptos-Generales-Modelado.md) |
 | Foro 2 | DDL y DBMS Oracle | S2 | [Ver](./foros/Foro2-DDL-DBMS-Oracle.md) |
 | Foro 3 | DBMS SQL Server y MongoDB | S3 | [Ver](./foros/Foro3-SQLServer-MongoDB.md) |
-| Foro 4 | — | S4 | — |
+| Foro 4 | SQL Introducción | S4 | [Ver](./foros/Foro4-SQL-Introduccion.md) |
 | Foro 5 | — | S6 | — |
 
 ---
