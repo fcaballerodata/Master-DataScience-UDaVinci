@@ -44,7 +44,7 @@ Asignatura enfocada en los fundamentos estadísticos aplicados a la Ciencia de D
 
 | Actividad | Cubre | Semana | Carpeta |
 |---|---|---|---|
-| Actividad Integradora 1 ✅ | UD1–5 | S5 | [Ver](./actividades/AI1-UD1-5/) |
+| Actividad Integradora 1 ✅ | UD1–5 | S5 | [Ver](./actividades/Actividad1-Analisis-Estadistico-UD1-5.md) |
 | Actividad Integradora 2 | UD6–10 | S10 | [Ver](./actividades/AI2-UD6-10/) |
 
 ---
