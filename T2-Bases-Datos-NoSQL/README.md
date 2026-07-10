@@ -47,7 +47,7 @@ Asignatura que cubre desde los fundamentos del modelado de bases de datos relaci
 
 | Actividad | Cubre | Semana | Carpeta |
 |---|---|---|---|
-| Actividad Práctica 1 ✅ | U1–5 | S5 | [Ver](./actividades/AP1-U1-5/) |
+| Actividad Práctica 1 ✅ | U1–5 | S5 | [Ver](./actividades/Actividad1-Modelado-Normalizacion-Oracle.md) |
 | Actividad Práctica 2 | U6–12 | S9 | [Ver](./actividades/AP2-U6-12/) |
 
 ---
