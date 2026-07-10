@@ -19,7 +19,7 @@ Asignatura enfocada en los fundamentos estadísticos aplicados a la Ciencia de D
 | UD2 | Distribuciones de Probabilidad | [Ver](./notebooks/UD02-Distribuciones-Probabilidad.md) | S2 |
 | UD3 | Diseño de Experimentos (Inferencia Estadística) | [Ver](./notebooks/UD03-Disenio-Experimentos.md) | S3 |
 | UD4 | Regresión Lineal Simple y Múltiple | [Ver](./notebooks/UD04-Regresion-Lineal.md) | S4 |
-| UD5 | ANOVA — Análisis de Varianzas | — | S5 |
+| UD5 | ANOVA — Análisis de Varianzas | [Ver](./notebooks/UD05-ANOVA.md) | S5 |
 | UD6 | Análisis de Datos Categóricos | — | S6 |
 | UD7 | Series de Tiempo | — | S7 |
 | UD8 | Estadística No Paramétrica | — | S8 |
@@ -34,9 +34,9 @@ Asignatura enfocada en los fundamentos estadísticos aplicados a la Ciencia de D
 |---|---|---|---|
 | Foro 1 | Estadística Descriptiva | S1 | [Ver](./foros/Foro1-Estadistica-Descriptiva.md) |
 | Foro 2 | Estadística Inferencial | S3 | [Ver](./foros/Foro2-Estadistica-Inferencial.md) |
-| Foro 3 | — | S5 | — |
+| Foro 5 | ANOVA de Dos Factores | S5 | [Ver](./foros/Foro5-ANOVA-Dos-Factores.md) |
 | Foro 4 | — | S7 | — |
-| Foro 5 | — | S9 | — |
+| Foro (final) | — | S9 | — |
 
 ---
 
@@ -44,7 +44,7 @@ Asignatura enfocada en los fundamentos estadísticos aplicados a la Ciencia de D
 
 | Actividad | Cubre | Semana | Carpeta |
 |---|---|---|---|
-| Actividad Integradora 1 | UD1–5 | S5 | [Ver](./actividades/AI1-UD1-5/) |
+| Actividad Integradora 1 ✅ | UD1–5 | S5 | [Ver](./actividades/AI1-UD1-5/) |
 | Actividad Integradora 2 | UD6–10 | S10 | [Ver](./actividades/AI2-UD6-10/) |
 
 ---
