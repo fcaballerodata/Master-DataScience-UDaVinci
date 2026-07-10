@@ -19,7 +19,7 @@ Asignatura que cubre desde los fundamentos del modelado de bases de datos relaci
 | U2 | DDL y DBMS Oracle | [Ver](./notebooks/U02-DDL-DBMS-Oracle.md) | S2 |
 | U3 | DBMS SQL Server y MongoDB | [Ver](./notebooks/U03-SQLServer-MongoDB.md) | S3 |
 | U4 | SQL Introducción y SQL Consultas, Subconsultas y Funciones | [Ver](./notebooks/U04-SQL-Consultas-Subconsultas.md) | S4 |
-| U5 | SQL múltiples tablas + BD en la Nube | — | S5 |
+| U5 | SQL múltiples tablas + BD en la Nube | [Ver](./notebooks/U05-SQL-Multitabla-Nube.md) | S5 |
 | U6 | Bases de Datos Relacionales | — | S6 |
 | U7 | Introducción a BD NoSQL | — | S6 |
 | U8 | BD NoSQL y Almacenamiento Escalable | — | S7 |
@@ -47,7 +47,7 @@ Asignatura que cubre desde los fundamentos del modelado de bases de datos relaci
 
 | Actividad | Cubre | Semana | Carpeta |
 |---|---|---|---|
-| Actividad Práctica 1 | U1–5 | S5 | [Ver](./actividades/AP1-U1-5/) |
+| Actividad Práctica 1 ✅ | U1–5 | S5 | [Ver](./actividades/AP1-U1-5/) |
 | Actividad Práctica 2 | U6–12 | S9 | [Ver](./actividades/AP2-U6-12/) |
 
 ---
