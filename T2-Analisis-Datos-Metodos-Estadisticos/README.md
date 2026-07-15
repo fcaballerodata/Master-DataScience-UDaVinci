@@ -20,7 +20,7 @@ Asignatura enfocada en los fundamentos estadísticos aplicados a la Ciencia de D
 | UD3 | Diseño de Experimentos (Inferencia Estadística) | [Ver](./notebooks/UD03-Disenio-Experimentos.md) | S3 |
 | UD4 | Regresión Lineal Simple y Múltiple | [Ver](./notebooks/UD04-Regresion-Lineal.md) | S4 |
 | UD5 | ANOVA — Análisis de Varianzas | [Ver](./notebooks/UD05-ANOVA.md) | S5 |
-| UD6 | Análisis de Datos Categóricos | — | S6 |
+| UD6 | Análisis de Datos Categóricos | [Ver](./notebooks/UD06-Analisis-Datos-Categoricos.md) | S6 |
 | UD7 | Series de Tiempo | — | S7 |
 | UD8 | Estadística No Paramétrica | — | S8 |
 | UD9 | Análisis de Decisiones | — | S9 |
@@ -45,7 +45,7 @@ Asignatura enfocada en los fundamentos estadísticos aplicados a la Ciencia de D
 | Actividad | Cubre | Semana | Carpeta |
 |---|---|---|---|
 | Actividad Integradora 1 ✅ | UD1–5 | S5 | [Ver](./actividades/Actividad1-Analisis-Estadistico-UD1-5.md) |
-| Actividad Integradora 2 | UD6–10 | S10 | [Ver](./actividades/AI2-UD6-10/) |
+| Actividad Integradora 2 | UD6–10 | S10 | — |
 
 ---
 
