@@ -20,8 +20,8 @@ Asignatura que cubre desde los fundamentos del modelado de bases de datos relaci
 | U3 | DBMS SQL Server y MongoDB | [Ver](./notebooks/U03-SQLServer-MongoDB.md) | S3 |
 | U4 | SQL Introducción y SQL Consultas, Subconsultas y Funciones | [Ver](./notebooks/U04-SQL-Consultas-Subconsultas.md) | S4 |
 | U5 | SQL múltiples tablas + BD en la Nube | [Ver](./notebooks/U05-SQL-Multitabla-Nube.md) | S5 |
-| U6 | Bases de Datos Relacionales | — | S6 |
-| U7 | Introducción a BD NoSQL | — | S6 |
+| U6 | Bases de Datos Relacionales | [Ver](./notebooks/U06-Bases-Datos-Relacionales.md) | S6 |
+| U7 | Introducción a BD NoSQL | [Ver](./notebooks/U07-Introduccion-NoSQL-MongoDB.md) | S6 |
 | U8 | BD NoSQL y Almacenamiento Escalable | — | S7 |
 | U9 | MongoDB — índices e instalación | — | S7 |
 | U10 | BD NoSQL Escalable (profundización) | — | S8 |
@@ -39,7 +39,7 @@ Asignatura que cubre desde los fundamentos del modelado de bases de datos relaci
 | Foro 2 | DDL y DBMS Oracle | S2 | [Ver](./foros/Foro2-DDL-DBMS-Oracle.md) |
 | Foro 3 | DBMS SQL Server y MongoDB | S3 | [Ver](./foros/Foro3-SQLServer-MongoDB.md) |
 | Foro 4 | SQL Introducción | S4 | [Ver](./foros/Foro4-SQL-Introduccion.md) |
-| Foro 5 | — | S6 | — |
+| Foro 5 | SELECT, Subconsultas, Multitabla, JOIN | S6 | [Ver](./foros/Foro5-SELECT-Subconsultas-JOIN.md) |
 
 ---
 
@@ -48,7 +48,7 @@ Asignatura que cubre desde los fundamentos del modelado de bases de datos relaci
 | Actividad | Cubre | Semana | Carpeta |
 |---|---|---|---|
 | Actividad Práctica 1 ✅ | U1–5 | S5 | [Ver](./actividades/Actividad1-Modelado-Normalizacion-Oracle.md) |
-| Actividad Práctica 2 | U6–12 | S9 | [Ver](./actividades/AP2-U6-12/) |
+| Actividad Práctica 2 | U6–12 | S9 | — |
 
 ---
 
