@@ -313,4 +313,3 @@ Interpretación: es un hallazgo válido derivado directamente de los datos, no u
 Bergado Rosado, J. A., Bergado Báez, G., Contrera Hernández, M., Díaz Domínguez, G., & Moreno Castillo, E. (2009). Ausencia de efectos de la terapia floral aplicada a adultos jóvenes con el fin de mejorar su memoria. *Revista Cubana de Investigaciones Biomédicas*, 28(4).
 
 Montgomery, D. C., & Runger, G. C. (2010). *Probabilidad y estadística aplicadas a la ingeniería*. Limusa Wiley.
-
