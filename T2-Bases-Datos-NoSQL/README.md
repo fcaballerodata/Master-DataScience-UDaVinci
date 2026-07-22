@@ -22,8 +22,8 @@ Asignatura que cubre desde los fundamentos del modelado de bases de datos relaci
 | U5 | SQL múltiples tablas + BD en la Nube | [Ver](./notebooks/U05-SQL-Multitabla-Nube.md) | S5 |
 | U6 | Bases de Datos Relacionales | [Ver](./notebooks/U06-Bases-Datos-Relacionales.md) | S6 |
 | U7 | Introducción a BD NoSQL | [Ver](./notebooks/U07-Introduccion-NoSQL-MongoDB.md) | S6 |
-| U8 | BD NoSQL y Almacenamiento Escalable | — | S7 |
-| U9 | MongoDB — índices e instalación | — | S7 |
+| U8 | BD NoSQL y Almacenamiento Escalable | [Ver](./notebooks/U08-SQL-vs-NoSQL.md) | S7 |
+| U9 | MongoDB — índices e instalación | [Ver](./notebooks/U09-MongoDB-Indices.md) | S7 |
 | U10 | BD NoSQL Escalable (profundización) | — | S8 |
 | U11 | MongoDB a fondo — CRUD completo | — | S8 |
 | U12 | Programar con BD NoSQL | — | S9 |
