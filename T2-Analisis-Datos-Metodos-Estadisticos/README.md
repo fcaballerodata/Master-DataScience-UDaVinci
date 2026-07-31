@@ -22,7 +22,7 @@ Asignatura enfocada en los fundamentos estadísticos aplicados a la Ciencia de D
 | UD5 | ANOVA — Análisis de Varianzas | [Ver](./notebooks/UD05-ANOVA.md) | S5 |
 | UD6 | Análisis de Datos Categóricos | [Ver](./notebooks/UD06-Analisis-Datos-Categoricos.md) | S6 |
 | UD7 | Series de Tiempo | [Ver](./notebooks/UD07-Series-de-Tiempo.md) | S7 |
-| UD8 | Estadística No Paramétrica | — | S8 |
+| UD8 | Estadística No Paramétrica | [Ver](./notebooks/UD08-Estadistica-No-Parametrica.md) | S8 |
 | UD9 | Análisis de Decisiones | — | S9 |
 | UD10 | Técnicas de Clasificación y Predicción | — | S10 |
 
