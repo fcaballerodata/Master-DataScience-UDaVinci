@@ -24,8 +24,8 @@ Asignatura que cubre desde los fundamentos del modelado de bases de datos relaci
 | U7 | Introducción a BD NoSQL | [Ver](./notebooks/U07-Introduccion-NoSQL-MongoDB.md) | S6 |
 | U8 | BD NoSQL y Almacenamiento Escalable | [Ver](./notebooks/U08-SQL-vs-NoSQL.md) | S7 |
 | U9 | MongoDB — índices e instalación | [Ver](./notebooks/U09-MongoDB-Indices.md) | S7 |
-| U10 | BD NoSQL Escalable (profundización) | — | S8 |
-| U11 | MongoDB a fondo — CRUD completo | — | S8 |
+| U10 | BD NoSQL Escalable (profundización) | [Ver](./notebooks/U10-NoSQL-Almacenamiento-Escalable.md) | S8 |
+| U11 | MongoDB a fondo — CRUD completo | [Ver](./notebooks/U11-MongoDB-Practica.md) | S8 |
 | U12 | Programar con BD NoSQL | — | S9 |
 | U13 | Casos Prácticos en BD NoSQL | — | S10 |
 
