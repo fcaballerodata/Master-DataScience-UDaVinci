@@ -2,7 +2,7 @@
 
 <div align="center">
 
-**Fredys Caballero**  
+**Fredys Caballero**
 Ingeniero Mecánico · BI Analyst · Data Scientist en formación
 
 [![GitHub](https://img.shields.io/badge/GitHub-fcaballerodata-181717?style=flat&logo=github)](https://github.com/fcaballerodata)
@@ -12,11 +12,28 @@ Ingeniero Mecánico · BI Analyst · Data Scientist en formación
 
 ---
 
+## 📈 Progreso general del programa
+
+![Progreso](https://img.shields.io/badge/Progreso%20del%20programa-38%25-2DD4BF?style=for-the-badge)
+
+```
+T1 ████████████████████ 100%  ✅ Completado
+T2 ██████████████████░░  90%  🔄 En curso (Semana 9/10)
+T3 ░░░░░░░░░░░░░░░░░░░░   0%  ⏳ Pendiente
+T4 ░░░░░░░░░░░░░░░░░░░░   0%  ⏳ Pendiente
+T5 ░░░░░░░░░░░░░░░░░░░░   0%  ⏳ Pendiente
+──────────────────────────────
+Programa completo: ███████░░░░░░░░░░░░░ ~38% (19 de 50 semanas)
+```
+
+---
+
 ## 👨‍💻 Sobre este repositorio
 
 Este repositorio documenta mi trayectoria en la **Maestría en Ciencia de Datos** de la Universidad DaVinci (Marzo 2026 – Junio 2027). Cada carpeta corresponde a una asignatura de cada trimestre e incluye:
 
-- 📓 **Notebooks** — resúmenes conceptuales por unidad temática
+- 📓 **Notebooks** — resúmenes conceptuales por unidad temática, con ejemplos prácticos en Python y R
+- 🗺️ **Way of Work** — checklists paso a paso reutilizables para tipos de análisis recurrentes
 - 🛠️ **Actividades prácticas** — ejercicios y proyectos resueltos con código
 - 📰 **Foros académicos** — artículos de debate y reflexión sobre los temas del curso
 
@@ -29,7 +46,7 @@ El objetivo es doble: registro académico personal y portafolio profesional púb
 | Trimestre | Período | Asignatura 1 | Asignatura 2 | Estado |
 |---|---|---|---|---|
 | **T1** | Mar – May 2026 | [Fundamentos de Programación (JS)](./T1-Fundamentos-Programacion/) | [Big Data y Datos Masivos](./T1-BigData-Datos-Masivos/) | ✅ Completado |
-| **T2** | Jun – Ago 2026 | [Análisis de Datos y Métodos Estadísticos](./T2-Analisis-Datos-Metodos-Estadisticos/) | [Bases de Datos y NoSQL](./T2-Bases-Datos-NoSQL/) | 🔄 En curso |
+| **T2** | Jun – Ago 2026 | [Análisis de Datos y Métodos Estadísticos](./T2-Analisis-Datos-Metodos-Estadisticos/) | [Bases de Datos y NoSQL](./T2-Bases-Datos-NoSQL/) | 🔄 En curso (Semana 9/10) |
 | **T3** | Sep – Nov 2026 | Fundamentos de Machine Learning | Minería de Datos | ⏳ Pendiente |
 | **T4** | Dic 2026 – Feb 2027 | Lenguaje R | Visualización de Datos | ⏳ Pendiente |
 | **T5** | Mar – Jun 2027 | Privacidad y Protección de Datos | Proyecto Integrador | ⏳ Pendiente |
@@ -96,65 +113,71 @@ El objetivo es doble: registro académico personal y portafolio profesional púb
 
 ---
 
-## 📚 Trimestre 2 — Contenido (En curso)
+## 📚 Trimestre 2 — Contenido (En curso · Semana 9 de 10)
 
 ### 3️⃣ [Análisis de Datos y Métodos Estadísticos (ADME)](./T2-Analisis-Datos-Metodos-Estadisticos/)
 
-| Unidad | Tema | Notebook | Estado |
-|---|---|---|---|
-| UD1 | Estadística Descriptiva | [Ver](./T2-Analisis-Datos-Metodos-Estadisticos/notebooks/UD01-Estadistica-Descriptiva.md) | ✅ S1 |
-| UD2 | Distribuciones de Probabilidad | [Ver](./T2-Analisis-Datos-Metodos-Estadisticos/notebooks/UD02-Distribuciones-Probabilidad.md) | ✅ S2 |
-| UD3 | Diseño de Experimentos | [Ver](./T2-Analisis-Datos-Metodos-Estadisticos/notebooks/UD03-Disenio-Experimentos.md) | ✅ S3 |
-| UD4 | Regresión Lineal Simple y Múltiple | — | 🔜 S4 |
-| UD5 | ANOVA | — | 🔜 S5 |
-| UD6 | Análisis de Datos Categóricos | — | ⏳ S6 |
-| UD7 | Series de Tiempo | — | ⏳ S7 |
-| UD8 | Estadística No Paramétrica | — | ⏳ S8 |
-| UD9 | Análisis de Decisiones | — | ⏳ S9 |
-| UD10 | Técnicas de Clasificación y Predicción | — | ⏳ S10 |
+| Unidad | Tema | Notebook |
+|---|---|---|
+| UD1 | Estadística Descriptiva | [Ver](./T2-Analisis-Datos-Metodos-Estadisticos/notebooks/UD01-Estadistica-Descriptiva.md) |
+| UD2 | Distribuciones de Probabilidad | [Ver](./T2-Analisis-Datos-Metodos-Estadisticos/notebooks/UD02-Distribuciones-Probabilidad.md) |
+| UD3 | Diseño de Experimentos | [Ver](./T2-Analisis-Datos-Metodos-Estadisticos/notebooks/UD03-Disenio-Experimentos.md) |
+| UD4 | Regresión Lineal Simple y Múltiple | [Ver](./T2-Analisis-Datos-Metodos-Estadisticos/notebooks/UD04-Regresion-Lineal.md) |
+| UD5 | ANOVA | [Ver](./T2-Analisis-Datos-Metodos-Estadisticos/notebooks/UD05-ANOVA.md) |
+| UD6 | Análisis de Datos Categóricos | [Ver](./T2-Analisis-Datos-Metodos-Estadisticos/notebooks/UD06-Analisis-Datos-Categoricos.md) |
+| UD7 | Series de Tiempo | [Ver](./T2-Analisis-Datos-Metodos-Estadisticos/notebooks/UD07-Series-de-Tiempo.md) |
+| UD8 | Estadística No Paramétrica | [Ver](./T2-Analisis-Datos-Metodos-Estadisticos/notebooks/UD08-Estadistica-No-Parametrica.md) |
+| UD9 | Análisis de Decisiones | [Ver](./T2-Analisis-Datos-Metodos-Estadisticos/notebooks/UD09-Analisis-Decisiones.md) |
+| UD10 | Técnicas de Clasificación y Predicción | — 🔜 S10 |
 
-**Foros:** [Foro 1](./T2-Analisis-Datos-Metodos-Estadisticos/foros/Foro1-Estadistica-Descriptiva.md) · [Foro 2](./T2-Analisis-Datos-Metodos-Estadisticos/foros/Foro2-Estadistica-Inferencial.md) · Foro 3–5 pendientes
+**Foros:** [Foro 1](./T2-Analisis-Datos-Metodos-Estadisticos/foros/Foro1-Estadistica-Descriptiva.md) · [Foro 2](./T2-Analisis-Datos-Metodos-Estadisticos/foros/Foro2-Estadistica-Inferencial.md) · [Foro 5](./T2-Analisis-Datos-Metodos-Estadisticos/foros/Foro5-ANOVA-Dos-Factores.md) · [Foro 7](./T2-Analisis-Datos-Metodos-Estadisticos/foros/Foro7-Series-de-Tiempo.md) · [Foro 9](./T2-Analisis-Datos-Metodos-Estadisticos/foros/Foro9-Analisis-Decisiones.md)
+
+**Actividades prácticas:** [Actividad Integradora 1 — UD1-5](./T2-Analisis-Datos-Metodos-Estadisticos/actividades/Actividad1-Analisis-Estadistico-UD1-5.md) ✅ · Actividad Integradora 2 — UD6-10 ⏳ S10
 
 ---
 
 ### 4️⃣ [Bases de Datos y Bases de Datos NoSQL (BDNS)](./T2-Bases-Datos-NoSQL/)
 
-| Unidad | Tema | Notebook | Estado |
-|---|---|---|---|
-| U1 | Conceptos Generales y Modelado de BD | [Ver](./T2-Bases-Datos-NoSQL/notebooks/U01-Conceptos-Generales-Modelado.md) | ✅ S1 |
-| U2 | DDL y DBMS Oracle | [Ver](./T2-Bases-Datos-NoSQL/notebooks/U02-DDL-DBMS-Oracle.md) | ✅ S2 |
-| U3 | DBMS SQL Server y MongoDB | [Ver](./T2-Bases-Datos-NoSQL/notebooks/U03-SQLServer-MongoDB.md) | ✅ S3 |
-| U4 | SQL Server + SQL avanzado | — | 🔜 S4 |
-| U5 | SQL múltiples tablas + BD en la Nube | — | 🔜 S5 |
-| U6 | Bases de Datos Relacionales | — | ⏳ S6 |
-| U7 | Introducción a BD NoSQL | — | ⏳ S6 |
-| U8 | BD NoSQL y Almacenamiento Escalable | — | ⏳ S7 |
-| U9 | MongoDB — índices e instalación | — | ⏳ S7 |
-| U10 | BD NoSQL Escalable (profundización) | — | ⏳ S8 |
-| U11 | MongoDB a fondo — CRUD completo | — | ⏳ S8 |
-| U12 | Programar con BD NoSQL | — | ⏳ S9 |
-| U13 | Casos Prácticos en BD NoSQL | — | ⏳ S10 |
+| Unidad | Tema | Notebook |
+|---|---|---|
+| U1 | Conceptos Generales y Modelado de BD | [Ver](./T2-Bases-Datos-NoSQL/notebooks/U01-Conceptos-Generales-Modelado.md) |
+| U2 | DDL y DBMS Oracle | [Ver](./T2-Bases-Datos-NoSQL/notebooks/U02-DDL-DBMS-Oracle.md) |
+| U3 | DBMS SQL Server y MongoDB | [Ver](./T2-Bases-Datos-NoSQL/notebooks/U03-SQLServer-MongoDB.md) |
+| U4 | SQL — Consultas y Subconsultas | [Ver](./T2-Bases-Datos-NoSQL/notebooks/U04-SQL-Consultas-Subconsultas.md) |
+| U5 | SQL Multitabla + BD en la Nube | [Ver](./T2-Bases-Datos-NoSQL/notebooks/U05-SQL-Multitabla-Nube.md) |
+| U6 | Bases de Datos Relacionales | [Ver](./T2-Bases-Datos-NoSQL/notebooks/U06-Bases-Datos-Relacionales.md) |
+| U7 | Introducción a NoSQL y MongoDB | [Ver](./T2-Bases-Datos-NoSQL/notebooks/U07-Introduccion-NoSQL-MongoDB.md) |
+| U8 | SQL vs. NoSQL | [Ver](./T2-Bases-Datos-NoSQL/notebooks/U08-SQL-vs-NoSQL.md) |
+| U9 | MongoDB — Índices | [Ver](./T2-Bases-Datos-NoSQL/notebooks/U09-MongoDB-Indices.md) |
+| U10 | NoSQL y Almacenamiento Escalable (Teorema CAP) | [Ver](./T2-Bases-Datos-NoSQL/notebooks/U10-NoSQL-Almacenamiento-Escalable.md) |
+| U11 | MongoDB en la Práctica — CRUD completo | [Ver](./T2-Bases-Datos-NoSQL/notebooks/U11-MongoDB-Practica.md) |
+| U12 | Programar y Desarrollar con NoSQL | [Ver](./T2-Bases-Datos-NoSQL/notebooks/U12-Programar-Desarrollar-NoSQL.md) |
+| U13 | Programas Clientes y MongoDB Compass | [Ver](./T2-Bases-Datos-NoSQL/notebooks/U13-Programas-Clientes-MongoDB-Compass.md) |
 
-**Foros:** [Foro 1](./T2-Bases-Datos-NoSQL/foros/Foro1-Conceptos-Generales-Modelado.md) · [Foro 2](./T2-Bases-Datos-NoSQL/foros/Foro2-DDL-DBMS-Oracle.md) · [Foro 3](./T2-Bases-Datos-NoSQL/foros/Foro3-SQLServer-MongoDB.md) · Foro 4–5 pendientes
+**Foros:** [Foro 1](./T2-Bases-Datos-NoSQL/foros/Foro1-Conceptos-Generales-Modelado.md) · [Foro 2](./T2-Bases-Datos-NoSQL/foros/Foro2-DDL-DBMS-Oracle.md) · [Foro 3](./T2-Bases-Datos-NoSQL/foros/Foro3-SQLServer-MongoDB.md) · [Foro 4](./T2-Bases-Datos-NoSQL/foros/Foro4-SQL-Introduccion.md) · [Foro 5](./T2-Bases-Datos-NoSQL/foros/Foro5-SELECT-Subconsultas-JOIN.md)
+
+**Actividades prácticas:**
+- [Actividad Práctica 1 — U1-5](./T2-Bases-Datos-NoSQL/actividades/Actividad1-Modelado-Normalizacion-Oracle.md) (modelado, normalización, Oracle) ✅
+- Actividad Práctica 2 — U6-13: [Tendencias BD Nube/SQL/NoSQL](./T2-Bases-Datos-NoSQL/actividades/Actividad2-Tendencias-BD-Nube-SQL-NoSQL.md) · [Anexo FODA Personal](./T2-Bases-Datos-NoSQL/actividades/Actividad2-FODA-Personal.md) ✅
 
 ---
 
-## 📊 Resultados T1
+## 🗺️ Way of Work
 
-| Evaluación | Asignatura | Resultado |
+Checklists paso a paso, reutilizables cada vez que aplico un tipo de análisis recurrente — pensados para no partir de cero cada vez, sino seguir un proceso validado con literatura académica de respaldo.
+
+| Way of Work | Asignatura | Dónde encontrarlo |
 |---|---|---|
-| Examen Final | Fundamentos de Programación | ✅ 100/100 |
-| Examen Final | Big Data y Datos Masivos | ✅ 100/100 |
-| Actividades Prácticas | Fundamentos de Programación | ✅ Entregadas |
-| Actividades Prácticas | Big Data y Datos Masivos | ✅ Entregadas |
-| Foros de debate | Ambas asignaturas | ✅ Participados |
+| Análisis de Series de Tiempo (7 pasos: graficar → descomponer → estacionariedad → elegir método → ajustar → validar → pronosticar) | ADME | [Ver dentro de UD07](./T2-Analisis-Datos-Metodos-Estadisticos/notebooks/UD07-Series-de-Tiempo.md#️-way-of-work--análisis-de-series-de-tiempo) |
+| Pruebas No Paramétricas (7 pasos: tipo de comparación → supuestos → paramétrica o no → elegir prueba → H0/H1 → ejecutar → interpretar) | ADME | [Ver dentro de UD08](./T2-Analisis-Datos-Metodos-Estadisticos/notebooks/UD08-Estadistica-No-Parametrica.md#️-way-of-work--pruebas-no-paramétricas) |
+| Análisis de Decisiones con EMV y EVPI (7 pasos: componentes → tabla de recompensa → probabilidades → EMV → decisión óptima → EVPI → sensibilidad) | ADME | [Ver dentro de UD09](./T2-Analisis-Datos-Metodos-Estadisticos/notebooks/UD09-Analisis-Decisiones.md#️-way-of-work--emv-y-evpi) |
 
 ---
 
 ## 📬 Contacto
 
-**Fredys Caballero**  
-📍 Colombia  
+**Fredys Caballero**
+📍 Colombia
 🔗 [github.com/fcaballerodata](https://github.com/fcaballerodata)
 
 ---
