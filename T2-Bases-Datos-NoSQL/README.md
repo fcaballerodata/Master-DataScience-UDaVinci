@@ -26,8 +26,8 @@ Asignatura que cubre desde los fundamentos del modelado de bases de datos relaci
 | U9 | MongoDB — índices e instalación | [Ver](./notebooks/U09-MongoDB-Indices.md) | S7 |
 | U10 | BD NoSQL Escalable (profundización) | [Ver](./notebooks/U10-NoSQL-Almacenamiento-Escalable.md) | S8 |
 | U11 | MongoDB a fondo — CRUD completo | [Ver](./notebooks/U11-MongoDB-Practica.md) | S8 |
-| U12 | Programar con BD NoSQL | — | S9 |
-| U13 | Casos Prácticos en BD NoSQL | — | S10 |
+| U12 | Programar con BD NoSQL | [Ver](./notebooks/U12-Programar-Desarrollar-NoSQL.md) | S9 |
+| U13 | Casos Prácticos en BD NoSQL | [Ver](./notebooks/U13-Programas-Clientes-MongoDB-Compass.md) | S9 |
 
 ---
 
@@ -48,7 +48,7 @@ Asignatura que cubre desde los fundamentos del modelado de bases de datos relaci
 | Actividad | Cubre | Semana | Carpeta |
 |---|---|---|---|
 | Actividad Práctica 1 ✅ | U1–5 | S5 | [Ver](./actividades/Actividad1-Modelado-Normalizacion-Oracle.md) |
-| Actividad Práctica 2 | U6–12 | S9 | — |
+| Actividad Práctica 2 | U6–13 | S9 | [Ver infografía](./actividades/Actividad2-Tendencias-BD-Nube-SQL-NoSQL.md) · [Ver FODA](./actividades/Actividad2-FODA-Personal.md) |
 
 ---
 
