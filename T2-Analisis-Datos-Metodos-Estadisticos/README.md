@@ -23,7 +23,7 @@ Asignatura enfocada en los fundamentos estadísticos aplicados a la Ciencia de D
 | UD6 | Análisis de Datos Categóricos | [Ver](./notebooks/UD06-Analisis-Datos-Categoricos.md) | S6 |
 | UD7 | Series de Tiempo | [Ver](./notebooks/UD07-Series-de-Tiempo.md) | S7 |
 | UD8 | Estadística No Paramétrica | [Ver](./notebooks/UD08-Estadistica-No-Parametrica.md) | S8 |
-| UD9 | Análisis de Decisiones | — | S9 |
+| UD9 | Análisis de Decisiones | [Ver](./notebooks/UD09-Analisis-Decisiones.md) | S9 |
 | UD10 | Técnicas de Clasificación y Predicción | — | S10 |
 
 ---
@@ -36,7 +36,7 @@ Asignatura enfocada en los fundamentos estadísticos aplicados a la Ciencia de D
 | Foro 2 | Estadística Inferencial | S3 | [Ver](./foros/Foro2-Estadistica-Inferencial.md) |
 | Foro 5 | ANOVA de Dos Factores | S5 | [Ver](./foros/Foro5-ANOVA-Dos-Factores.md) |
 | Foro 7 | Series de Tiempo | S7 | [Ver](./foros/Foro7-Series-de-Tiempo.md) |
-| Foro (final) | — | S9 | — |
+| Foro 9 | Análisis de Decisiones | S9 | [Ver](./foros/Foro9-Analisis-Decisiones.md) |
 
 ---
 
