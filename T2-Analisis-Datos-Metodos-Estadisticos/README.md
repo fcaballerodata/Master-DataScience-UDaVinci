@@ -24,7 +24,7 @@ Asignatura enfocada en los fundamentos estadísticos aplicados a la Ciencia de D
 | UD7 | Series de Tiempo | [Ver](./notebooks/UD07-Series-de-Tiempo.md) | S7 |
 | UD8 | Estadística No Paramétrica | [Ver](./notebooks/UD08-Estadistica-No-Parametrica.md) | S8 |
 | UD9 | Análisis de Decisiones | [Ver](./notebooks/UD09-Analisis-Decisiones.md) | S9 |
-| UD10 | Técnicas de Clasificación y Predicción | — | S10 |
+| UD10 | Técnicas de Clasificación y Predicción | [Ver](./notebooks/UD10-Tecnicas-Clasificacion-Prediccion.md) | S10 |
 
 ---
 
@@ -45,7 +45,7 @@ Asignatura enfocada en los fundamentos estadísticos aplicados a la Ciencia de D
 | Actividad | Cubre | Semana | Carpeta |
 |---|---|---|---|
 | Actividad Integradora 1 ✅ | UD1–5 | S5 | [Ver](./actividades/Actividad1-Analisis-Estadistico-UD1-5.md) |
-| Actividad Integradora 2 | UD6–10 | S10 | — |
+| Actividad Integradora 2 ✅ | UD6–10 | S10 | [Ver](./actividades/Actividad2-Analisis-Estadistico-UD6-10.md) |
 
 ---
 
