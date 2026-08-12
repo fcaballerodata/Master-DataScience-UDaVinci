@@ -14,16 +14,16 @@ Ingeniero Mecánico · BI Analyst · Data Scientist en formación
 
 ## 📈 Progreso general del programa
 
-![Progreso](https://img.shields.io/badge/Progreso%20del%20programa-38%25-2DD4BF?style=for-the-badge)
+![Progreso](https://img.shields.io/badge/Progreso%20del%20programa-40%25-2DD4BF?style=for-the-badge)
 
 ```
 T1 ████████████████████ 100%  ✅ Completado
-T2 ██████████████████░░  90%  🔄 En curso (Semana 9/10)
+T2 ████████████████████ 100%  ✅ Completado
 T3 ░░░░░░░░░░░░░░░░░░░░   0%  ⏳ Pendiente
 T4 ░░░░░░░░░░░░░░░░░░░░   0%  ⏳ Pendiente
 T5 ░░░░░░░░░░░░░░░░░░░░   0%  ⏳ Pendiente
 ──────────────────────────────
-Programa completo: ███████░░░░░░░░░░░░░ ~38% (19 de 50 semanas)
+Programa completo: ████████░░░░░░░░░░░░ ~40% (20 de 50 semanas)
 ```
 
 ---
@@ -46,7 +46,7 @@ El objetivo es doble: registro académico personal y portafolio profesional púb
 | Trimestre | Período | Asignatura 1 | Asignatura 2 | Estado |
 |---|---|---|---|---|
 | **T1** | Mar – May 2026 | [Fundamentos de Programación (JS)](./T1-Fundamentos-Programacion/) | [Big Data y Datos Masivos](./T1-BigData-Datos-Masivos/) | ✅ Completado |
-| **T2** | Jun – Ago 2026 | [Análisis de Datos y Métodos Estadísticos](./T2-Analisis-Datos-Metodos-Estadisticos/) | [Bases de Datos y NoSQL](./T2-Bases-Datos-NoSQL/) | 🔄 En curso (Semana 9/10) |
+| **T2** | Jun – Ago 2026 | [Análisis de Datos y Métodos Estadísticos](./T2-Analisis-Datos-Metodos-Estadisticos/) | [Bases de Datos y NoSQL](./T2-Bases-Datos-NoSQL/) | ✅ Completado |
 | **T3** | Sep – Nov 2026 | Fundamentos de Machine Learning | Minería de Datos | ⏳ Pendiente |
 | **T4** | Dic 2026 – Feb 2027 | Lenguaje R | Visualización de Datos | ⏳ Pendiente |
 | **T5** | Mar – Jun 2027 | Privacidad y Protección de Datos | Proyecto Integrador | ⏳ Pendiente |
@@ -65,6 +65,7 @@ El objetivo es doble: registro académico personal y portafolio profesional púb
 ![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
 
 ### Experiencia previa
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
@@ -113,7 +114,7 @@ El objetivo es doble: registro académico personal y portafolio profesional púb
 
 ---
 
-## 📚 Trimestre 2 — Contenido (En curso · Semana 9 de 10)
+## 📚 Trimestre 2 — Contenido ✅ Completado
 
 ### 3️⃣ [Análisis de Datos y Métodos Estadísticos (ADME)](./T2-Analisis-Datos-Metodos-Estadisticos/)
 
@@ -128,11 +129,13 @@ El objetivo es doble: registro académico personal y portafolio profesional púb
 | UD7 | Series de Tiempo | [Ver](./T2-Analisis-Datos-Metodos-Estadisticos/notebooks/UD07-Series-de-Tiempo.md) |
 | UD8 | Estadística No Paramétrica | [Ver](./T2-Analisis-Datos-Metodos-Estadisticos/notebooks/UD08-Estadistica-No-Parametrica.md) |
 | UD9 | Análisis de Decisiones | [Ver](./T2-Analisis-Datos-Metodos-Estadisticos/notebooks/UD09-Analisis-Decisiones.md) |
-| UD10 | Técnicas de Clasificación y Predicción | — 🔜 S10 |
+| UD10 | Técnicas de Clasificación y Predicción | [Ver](./T2-Analisis-Datos-Metodos-Estadisticos/notebooks/UD10-Tecnicas-Clasificacion-Prediccion.md) |
 
 **Foros:** [Foro 1](./T2-Analisis-Datos-Metodos-Estadisticos/foros/Foro1-Estadistica-Descriptiva.md) · [Foro 2](./T2-Analisis-Datos-Metodos-Estadisticos/foros/Foro2-Estadistica-Inferencial.md) · [Foro 5](./T2-Analisis-Datos-Metodos-Estadisticos/foros/Foro5-ANOVA-Dos-Factores.md) · [Foro 7](./T2-Analisis-Datos-Metodos-Estadisticos/foros/Foro7-Series-de-Tiempo.md) · [Foro 9](./T2-Analisis-Datos-Metodos-Estadisticos/foros/Foro9-Analisis-Decisiones.md)
 
-**Actividades prácticas:** [Actividad Integradora 1 — UD1-5](./T2-Analisis-Datos-Metodos-Estadisticos/actividades/Actividad1-Analisis-Estadistico-UD1-5.md) ✅ · Actividad Integradora 2 — UD6-10 ⏳ S10
+**Actividades prácticas:**
+- [Actividad Integradora 1 — UD1-5](./T2-Analisis-Datos-Metodos-Estadisticos/actividades/Actividad1-Analisis-Estadistico-UD1-5.md) ✅
+- [Actividad Integradora 2 — UD6-10](./T2-Analisis-Datos-Metodos-Estadisticos/actividades/Actividad2-Analisis-Estadistico-UD6-10.md) ✅ (Índices de Variación Estacional, ANOVA, prueba no paramétrica, resumen de artículo, redes neuronales con TensorFlow)
 
 ---
 
@@ -171,6 +174,11 @@ Checklists paso a paso, reutilizables cada vez que aplico un tipo de análisis r
 | Análisis de Series de Tiempo (7 pasos: graficar → descomponer → estacionariedad → elegir método → ajustar → validar → pronosticar) | ADME | [Ver dentro de UD07](./T2-Analisis-Datos-Metodos-Estadisticos/notebooks/UD07-Series-de-Tiempo.md#️-way-of-work--análisis-de-series-de-tiempo) |
 | Pruebas No Paramétricas (7 pasos: tipo de comparación → supuestos → paramétrica o no → elegir prueba → H0/H1 → ejecutar → interpretar) | ADME | [Ver dentro de UD08](./T2-Analisis-Datos-Metodos-Estadisticos/notebooks/UD08-Estadistica-No-Parametrica.md#️-way-of-work--pruebas-no-paramétricas) |
 | Análisis de Decisiones con EMV y EVPI (7 pasos: componentes → tabla de recompensa → probabilidades → EMV → decisión óptima → EVPI → sensibilidad) | ADME | [Ver dentro de UD09](./T2-Analisis-Datos-Metodos-Estadisticos/notebooks/UD09-Analisis-Decisiones.md#️-way-of-work--emv-y-evpi) |
+| Técnicas de Clasificación y Predicción (uno por técnica: Árboles, K-NN, Redes Bayesianas, Cadenas de Markov, Redes Neuronales, Naive Bayes) | ADME | [Ver dentro de UD10](./T2-Analisis-Datos-Metodos-Estadisticos/notebooks/UD10-Tecnicas-Clasificacion-Prediccion.md) |
+| Índices de Variación Estacional y Desestacionalización en Python (6 pasos: cargar serie → tendencia CMA → eliminar tendencia → promediar por periodo → normalizar → desestacionalizar) | ADME | [Ver dentro de Actividad 2](./T2-Analisis-Datos-Metodos-Estadisticos/actividades/Actividad2-Analisis-Estadistico-UD6-10.md#️-way-of-work--índices-de-variación-estacional-y-desestacionalización-python) |
+| ANOVA de un factor en Python (5 pasos: organizar datos → F y p-valor → desglose manual → comparar vs. crítico → interpretar) | ADME | [Ver dentro de Actividad 2](./T2-Analisis-Datos-Metodos-Estadisticos/actividades/Actividad2-Analisis-Estadistico-UD6-10.md#️-way-of-work--anova-de-un-factor-python) |
+| Pruebas No Paramétricas en Python — Mann-Whitney/Wilcoxon (5 pasos: tipo de comparación → elegir prueba → definir H1 → ejecutar → interpretar mediana) | ADME | [Ver dentro de Actividad 2](./T2-Analisis-Datos-Metodos-Estadisticos/actividades/Actividad2-Analisis-Estadistico-UD6-10.md#️-way-of-work--pruebas-no-paramétricas-python) |
+| Redes Neuronales con TensorFlow (6 pasos: preparar datos → arquitectura → compilar → entrenar → predecir → revisar pesos) | ADME | [Ver dentro de Actividad 2](./T2-Analisis-Datos-Metodos-Estadisticos/actividades/Actividad2-Analisis-Estadistico-UD6-10.md#️-way-of-work--redes-neuronales-con-tensorflow-python) |
 
 ---
 
