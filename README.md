@@ -167,10 +167,14 @@ El objetivo es doble: registro académico personal y portafolio profesional púb
 
 ## 🗺️ Way of Work
 
-Checklists paso a paso, reutilizables cada vez que aplico un tipo de análisis recurrente — pensados para no partir de cero cada vez, sino seguir un proceso validado con literatura académica de respaldo.
+Checklists paso a paso, reutilizables cada vez que aplico un tipo de análisis recurrente — pensados para no partir de cero cada vez, sino seguir un proceso validado con literatura académica de respaldo. Desde la Unidad 3 en adelante, cada notebook de ADME incluye su propio Way of Work con ejemplo ilustrativo de negocio, además de una sección "Aplicación profesional" (para qué sirve, cómo usarlo, en qué casos) pensada como referencia rápida para trabajo real como Data Analyst / Data Scientist.
 
 | Way of Work | Asignatura | Dónde encontrarlo |
 |---|---|---|
+| Inferencia Estadística — IC y Pruebas de Hipótesis (7 pasos: pregunta → TCL → Z o t → H0/H1 → estadístico → decisión → interpretar) | ADME | [Ver dentro de UD03](./T2-Analisis-Datos-Metodos-Estadisticos/notebooks/UD03-Disenio-Experimentos.md#️-way-of-work--inferencia-estadística-ic-y-pruebas-de-hipótesis) |
+| Regresión Lineal Simple y Múltiple (7 pasos: explorar → correlación → ajustar → supuestos → bondad de ajuste → multicolinealidad → interpretar) | ADME | [Ver dentro de UD04](./T2-Analisis-Datos-Metodos-Estadisticos/notebooks/UD04-Regresion-Lineal.md#️-way-of-work--regresión-lineal-simple-y-múltiple) |
+| ANOVA (6 pasos: confirmar 3+ grupos → Levene → ejecutar → post hoc → interacción si 2 factores → interpretar) | ADME | [Ver dentro de UD05](./T2-Analisis-Datos-Metodos-Estadisticos/notebooks/UD05-ANOVA.md#️-way-of-work--anova) |
+| Análisis de Datos Categóricos — Chi-cuadrado (6 pasos: tipo de pregunta → tabla de frecuencias → verificar tamaño de celda → ejecutar → comparar → interpretar) | ADME | [Ver dentro de UD06](./T2-Analisis-Datos-Metodos-Estadisticos/notebooks/UD06-Analisis-Datos-Categoricos.md#️-way-of-work--análisis-de-datos-categóricos) |
 | Análisis de Series de Tiempo (7 pasos: graficar → descomponer → estacionariedad → elegir método → ajustar → validar → pronosticar) | ADME | [Ver dentro de UD07](./T2-Analisis-Datos-Metodos-Estadisticos/notebooks/UD07-Series-de-Tiempo.md#️-way-of-work--análisis-de-series-de-tiempo) |
 | Pruebas No Paramétricas (7 pasos: tipo de comparación → supuestos → paramétrica o no → elegir prueba → H0/H1 → ejecutar → interpretar) | ADME | [Ver dentro de UD08](./T2-Analisis-Datos-Metodos-Estadisticos/notebooks/UD08-Estadistica-No-Parametrica.md#️-way-of-work--pruebas-no-paramétricas) |
 | Análisis de Decisiones con EMV y EVPI (7 pasos: componentes → tabla de recompensa → probabilidades → EMV → decisión óptima → EVPI → sensibilidad) | ADME | [Ver dentro de UD09](./T2-Analisis-Datos-Metodos-Estadisticos/notebooks/UD09-Analisis-Decisiones.md#️-way-of-work--emv-y-evpi) |
