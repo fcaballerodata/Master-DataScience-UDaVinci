@@ -1,222 +1,142 @@
-# 🔬 UD3 — Diseño de Experimentos (Inferencia Estadística)
+# 📐 UD3 — Diseño de Experimentos (Inferencia Estadística)
 
-**Asignatura:** Análisis de Datos y Métodos Estadísticos  
-**Semana:** S3 (22–27 Jun 2026)
+**Asignatura:** Análisis de Datos y Métodos Estadísticos
+**Semana:** S3
 
 ---
 
-## 🎯 Conceptos clave
+## 📌 Aplicación profesional
 
-Tres conceptos que se encadenan:
+**¿Para qué sirve?** Es la base de toda la estadística inferencial: te permite tomar una **muestra** (no puedes medir a toda la población) y, a partir de ella, estimar parámetros poblacionales y tomar decisiones con un nivel de confianza cuantificado — en lugar de opinar "a ojo" sobre si algo cambió o no.
 
-```
-Teorema del Límite Central → Intervalos de Confianza → Pruebas de Hipótesis
-     (el "por qué funciona")       (estimación)             (decisión)
-```
+**¿Cómo se usa?** Tres piezas trabajan juntas: (1) el **Teorema del Límite Central**, que justifica usar la distribución normal aunque los datos originales no lo sean; (2) los **intervalos de confianza**, que estiman un rango plausible para un parámetro poblacional; (3) las **pruebas de hipótesis**, que formalizan la pregunta "¿este cambio es real o es ruido?".
+
+**¿En qué casos lo vas a usar como Data Analyst / Data Scientist?**
+- Validar si un cambio de proceso (ej. nuevo script de ventas, nuevo layout de tienda) tuvo un efecto real o fue casualidad.
+- Estimar un promedio poblacional (tiempo de entrega, ticket promedio) con un margen de error controlado, sin censar a todos los clientes.
+- Base conceptual de cualquier test A/B: sin esto, no puedes decir si la "Versión B" fue mejor con confianza estadística.
 
 ---
 
 ## 1. Teorema del Límite Central (TCL)
 
-> Si tomas muchas muestras de cualquier población, las medias de esas muestras siempre formarán una distribución **Normal** — sin importar cómo se distribuya la población original.
+Sin importar la distribución original de la población, **la distribución de las medias muestrales se aproxima a una normal** cuando el tamaño de muestra es suficientemente grande (regla práctica: n ≥ 30).
 
-### Las 3 propiedades clave
-
-| Propiedad | Descripción |
-|---|---|
-| Distribución de medias muestrales → **Normal** | Siempre válido si n ≥ 30 |
-| Media de esas medias = **μ poblacional** | El promedio de promedios = el real |
-| Varianza de esas medias = **σ²/n** | A mayor muestra, más concentradas las medias |
-
-**Regla práctica:** con n ≥ 30 puedes asumir normalidad.
-
-**Ejemplo Movet:** tiempos de espera con μ=35 min, σ=8 min (distribución desconocida). Con n=50:
 ```
-X̄ ~ Normal(μ=35, σ_x̄ = 8/√50 = 1.13)
-→ Ya puedes calcular probabilidades con la Normal estándar
+Media muestral (x̄) ~ Normal(μ, σ/√n)   cuando n ≥ 30
 ```
+
+Esto es lo que hace posible construir intervalos de confianza y pruebas de hipótesis usando la distribución normal, incluso cuando no sabes cómo se distribuyen los datos individuales.
 
 ---
 
 ## 2. Intervalos de Confianza
 
-> En vez de decir "la media es 53", dices: **"estoy 95% seguro de que la media está entre 50.3 y 55.7"**.
+Un rango de valores donde, con cierto nivel de confianza, se espera que caiga el verdadero parámetro poblacional.
 
-### Fórmula
+$$IC = \bar{x} \pm Z \times \frac{\sigma}{\sqrt{n}}$$
 
-```
-IC = X̄  ±  Z × (σ / √n)
-
-Donde:
-  X̄    = media muestral
-  Z     = valor crítico (95% → Z=1.96 | 99% → Z=2.576)
-  σ/√n  = error estándar
-```
-
-### Factores que afectan el intervalo
-
-| Factor | Efecto sobre el IC |
+| Nivel de confianza | Valor de Z |
 |---|---|
-| ↑ Tamaño de muestra (n) | Intervalo más **estrecho** (más preciso) |
-| ↑ Nivel de confianza (95%→99%) | Intervalo más **ancho** |
-| ↑ Variabilidad (σ) | Intervalo más **ancho** |
-
-### Ejemplo Movet — Costo promedio de consulta
-
-```
-X̄ = 53.000 COP | σ = 8.340 | n = 50 | Confianza = 95%
-
-Error estándar = 8.340 / √50 = 1.179
-Margen de error = 1.96 × 1.179 = 2.310
-
-IC 95% = [50.690 , 55.310] miles COP
-```
-
-**Interpretación:** Con 95% de confianza, el costo promedio real de todas las consultas Movet está entre $50.690 y $55.310 COP.
+| 90% | 1.645 |
+| 95% | 1.96 |
+| 99% | 2.576 |
 
 ---
 
 ## 3. Pruebas de Hipótesis
 
-> Regla formal para decidir si los datos dan suficiente evidencia para rechazar una afirmación sobre la población.
-
-### Los dos actores
-
-| | H₀ (Nula) | H₁ (Alternativa) |
-|---|---|---|
-| **Representa** | El estado actual / "nada cambió" | Lo que quieres demostrar |
-| **Actitud** | Se asume verdadera hasta que se pruebe lo contrario | Requiere evidencia |
-| **Ejemplo Movet** | "El tiempo promedio es 35 min" | "El tiempo cambió" |
-
-### El p-valor
-
-```
-p-valor < α (0.05)  →  Rechazar H₀  →  "Hay evidencia suficiente"
-p-valor ≥ α (0.05)  →  No rechazar H₀  →  "No hay evidencia suficiente"
-```
-
-> ⚠️ "No rechazar H₀" ≠ probar que H₀ es verdadera.
-
-### Ejemplo Movet — ¿Mejoró el tiempo de espera tras contratar una veterinaria nueva?
-
-```
-H₀: μ = 35 min  |  H₁: μ ≠ 35 min  (dos colas)
-Muestra: n=40, X̄=31 min, σ=8 min, α=0.05
-
-Z = (31 − 35) / (8 / √40) = −4 / 1.265 = −3.16
-p-valor = 0.0016  <  0.05  → Se rechaza H₀ ✅
-
-Conclusión: hay evidencia estadística de que el tiempo de espera mejoró.
-```
+| Elemento | Descripción |
+|---|---|
+| H₀ (nula) | Supuesto de "no hay cambio/diferencia" — lo que se intenta refutar |
+| H₁ (alterna) | Lo que se sospecha que es cierto |
+| Estadístico de prueba | Z o t, según se conozca o no la desviación estándar poblacional |
+| p-valor | Probabilidad de observar un resultado así de extremo si H₀ fuera cierta |
+| Regla de decisión | Si p-valor < α (usualmente 0.05) → se rechaza H₀ |
 
 ---
 
-## 4. Conexión entre los tres conceptos
+## 4. Ejemplo ilustrativo — Call Center
 
+**Contexto (no veterinario, de negocio general):** un call center históricamente tarda en promedio **9.0 minutos** por llamada. Se implementa un nuevo script de atención y se mide una muestra de 40 llamadas, obteniendo una media de **8.2 minutos** con desviación estándar muestral de **2.1 minutos**. ¿El nuevo script realmente redujo el tiempo promedio, o la diferencia observada pudo deberse al azar?
+
+**Hipótesis:**
 ```
-CASO: ¿El nuevo veterinario mejoró el tiempo de atención?
-
-PASO 1 — TCL:
-  Aunque los tiempos no sean normales, con n=40 la media SÍ es normal → podemos continuar.
-
-PASO 2 — Intervalo de Confianza:
-  IC 95% = [28.5, 33.5] min → el valor histórico (35) NO está dentro → señal de cambio.
-
-PASO 3 — Prueba de Hipótesis:
-  p-valor = 0.0016 < 0.05 → Rechazamos H₀
-  Conclusión: el tiempo de atención mejoró significativamente.
+H0: μ = 9.0 min (el script no cambió el tiempo promedio)
+H1: μ < 9.0 min (el script redujo el tiempo promedio) -- prueba unilateral
 ```
 
----
+**Cálculo del estadístico (Z, porque n≥30):**
 
-## 5. Código Python
+```
+Z = (x̄ - μ0) / (s/√n) = (8.2 - 9.0) / (2.1/√40) = -0.8 / 0.332 = -2.41
+```
+
+Con Z = -2.41, el p-valor asociado es aproximadamente **0.008**. Como 0.008 < 0.05, **se rechaza H₀**: hay evidencia estadística de que el nuevo script sí redujo el tiempo promedio de llamada.
+
+### Python
 
 ```python
 import numpy as np
 from scipy import stats
-import matplotlib.pyplot as plt
 
-# ── 1. TCL — Simulación visual ────────────────────────────────
-np.random.seed(42)
-poblacion = np.random.exponential(scale=35, size=100_000)  # NO normal
-medias = [np.random.choice(poblacion, 50).mean() for _ in range(2000)]
+media_muestral = 8.2
+media_historica = 9.0
+desv_muestral = 2.1
+n = 40
 
-fig, axes = plt.subplots(1, 2, figsize=(12, 4))
-axes[0].hist(poblacion[:500], bins=30, color='tomato', edgecolor='white')
-axes[0].set_title("Población original (exponencial — NO normal)")
-axes[1].hist(medias, bins=30, color='steelblue', edgecolor='white')
-axes[1].set_title("Medias muestrales (n=50) → ¡Normal por TCL!")
-plt.tight_layout()
-plt.show()
+# Estadístico Z (n>=30, se usa aproximación normal)
+z = (media_muestral - media_historica) / (desv_muestral / np.sqrt(n))
+p_valor = stats.norm.cdf(z)  # unilateral, cola izquierda
 
-# ── 2. INTERVALO DE CONFIANZA ──────────────────────────────────
-x_bar, sigma, n = 53.0, 8.34, 50
-z = stats.norm.ppf(0.975)  # 1.96 para 95%
-margen = z * (sigma / np.sqrt(n))
-print(f"IC 95%: [{x_bar - margen:.2f}, {x_bar + margen:.2f}]")
+print(f"Z = {z:.3f}")
+print(f"p-valor = {p_valor:.4f}")
+print("Decisión:", "Rechazar H0" if p_valor < 0.05 else "No rechazar H0")
 
-# ── 3. PRUEBA DE HIPÓTESIS ────────────────────────────────────
-mu_0 = 35.0
-x_bar_new, sigma_new, n_new = 31.0, 8.0, 40
-
-z_stat = (x_bar_new - mu_0) / (sigma_new / np.sqrt(n_new))
-p_valor = 2 * (1 - stats.norm.cdf(abs(z_stat)))
-
-print(f"\nH₀: μ = {mu_0} | H₁: μ ≠ {mu_0}")
-print(f"Z = {z_stat:.3f}  |  p-valor = {p_valor:.4f}")
-print("→ Se RECHAZA H₀" if p_valor < 0.05 else "→ No se rechaza H₀")
+# Intervalo de confianza del 95% para la media muestral
+ic_bajo = media_muestral - 1.96 * (desv_muestral/np.sqrt(n))
+ic_alto = media_muestral + 1.96 * (desv_muestral/np.sqrt(n))
+print(f"IC 95%: [{ic_bajo:.2f}, {ic_alto:.2f}] minutos")
 ```
 
----
-
-## 6. Código R
+### R
 
 ```r
-# ── 1. TCL ─────────────────────────────────────────────────────
-set.seed(42)
-poblacion <- rexp(100000, rate=1/35)
-medias <- replicate(2000, mean(sample(poblacion, 50)))
-par(mfrow=c(1,2))
-hist(poblacion[1:500], col="tomato", main="Población (exponencial)")
-hist(medias, col="steelblue", main="Medias muestrales → Normal")
+media_muestral <- 8.2
+media_historica <- 9.0
+desv_muestral <- 2.1
+n <- 40
 
-# ── 2. INTERVALO DE CONFIANZA ──────────────────────────────────
-x_bar <- 53.0; sigma <- 8.34; n <- 50
-z <- qnorm(0.975)
-margen <- z * (sigma / sqrt(n))
-cat("IC 95%: [", round(x_bar - margen, 2), ",", round(x_bar + margen, 2), "]\n")
+z <- (media_muestral - media_historica) / (desv_muestral / sqrt(n))
+p_valor <- pnorm(z)
 
-# ── 3. PRUEBA DE HIPÓTESIS ─────────────────────────────────────
-mu_0 <- 35.0; x_bar_new <- 31.0; sigma_new <- 8.0; n_new <- 40
-z_stat <- (x_bar_new - mu_0) / (sigma_new / sqrt(n_new))
-p_valor <- 2 * (1 - pnorm(abs(z_stat)))
-cat("Z =", round(z_stat, 3), "| p-valor =", round(p_valor, 4), "\n")
-if (p_valor < 0.05) cat("→ Se RECHAZA H₀\n") else cat("→ No se rechaza H₀\n")
+cat("Z =", round(z,3), "| p-valor =", round(p_valor,4), "\n")
+
+ic <- media_muestral + c(-1,1) * 1.96 * (desv_muestral/sqrt(n))
+cat("IC 95%:", round(ic,2), "\n")
 ```
 
 ---
 
-## 🗺️ Mapa mental
+## 🗺️ Way of Work — Inferencia Estadística (IC y Pruebas de Hipótesis)
 
 ```
-UD3: INFERENCIA ESTADÍSTICA
-│
-├── Teorema del Límite Central (TCL)
-│     ├── n ≥ 30: medias muestrales ~ Normal (siempre)
-│     ├── Media de medias = μ poblacional
-│     └── Varianza de medias = σ²/n
-│
-├── Intervalos de Confianza
-│     ├── IC = X̄ ± Z × (σ/√n)
-│     ├── 95% → Z=1.96  |  99% → Z=2.576
-│     └── Mayor n → IC más estrecho (más preciso)
-│
-└── Pruebas de Hipótesis
-      ├── H₀: "nada cambió" — se asume verdadera
-      ├── H₁: lo que quieres demostrar
-      ├── p-valor < α (0.05) → Rechazar H₀
-      └── No rechazar H₀ ≠ probar que H₀ es verdadera
+PASO 1 — Definir la pregunta y el parámetro de interés (media, proporción)
+PASO 2 — Verificar condiciones para usar el TCL (n≥30, o normalidad conocida)
+PASO 3 — Elegir el estadístico correcto (Z si σ conocida o n grande, t si no)
+PASO 4 — Plantear H0 y H1 en función de la pregunta de negocio
+PASO 5 — Calcular el estadístico de prueba y el p-valor
+PASO 6 — Comparar contra α y decidir
+PASO 7 — Interpretar el resultado en el contexto del negocio, no solo estadísticamente
 ```
+
+1. **Definir la pregunta:** ¿quieres estimar un valor (IC) o comparar contra un valor de referencia (prueba de hipótesis)?
+2. **Verificar TCL:** con n≥30, puedes usar la aproximación normal sin preocuparte por la forma de la distribución original.
+3. **Elegir Z o t:** usa Z si conoces la desviación estándar poblacional o n es grande; usa t si trabajas con muestra pequeña y desviación estándar estimada.
+4. **Plantear hipótesis con cuidado:** H0 siempre es la afirmación de "no hay cambio" — evita plantear H1 como lo que "quieres que sea cierto", plantea lo que la evidencia sugiere.
+5. **Calcular:** usa las fórmulas o las funciones de `scipy.stats`/R directamente.
+6. **Comparar contra α (usualmente 0.05):** documenta explícitamente qué α usaste, no lo des por sentado.
+7. **Interpretar:** un resultado "estadísticamente significativo" no siempre es "relevante para el negocio" — conecta siempre el resultado con la magnitud real del cambio (ej. 0.8 minutos menos, ¿vale la pena el costo del nuevo script?).
 
 ---
 
