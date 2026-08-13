@@ -1,7 +1,21 @@
 # 📈 UD4 — Regresión Lineal Simple y Múltiple
 
-**Asignatura:** Análisis de Datos y Métodos Estadísticos  
+**Asignatura:** Análisis de Datos y Métodos Estadísticos
 **Semana:** S4 (29 Jun – 4 Jul 2026)
+
+---
+
+## 📌 Aplicación profesional
+
+**¿Para qué sirve?** Cuantificar y predecir la relación entre variables numéricas: qué tanto cambia Y cuando cambia X, y qué tan bien esa relación permite predecir valores futuros o desconocidos.
+
+**¿Cómo se usa?** Se ajusta una línea (simple, con una X) o un hiperplano (múltiple, con varias X) que minimice el error de predicción, y se evalúa qué tan confiable es ese ajuste (R², significancia de coeficientes) antes de usarlo para predecir.
+
+**¿En qué casos lo vas a usar como Data Analyst / Data Scientist?**
+- **Forecasting de ventas:** predecir ingresos futuros según gasto en publicidad, temporada, tráfico web.
+- **Pricing:** entender qué atributos de un producto explican su precio (ej. modelos hedónicos de precios inmobiliarios).
+- **Diagnóstico de negocio:** cuantificar cuánto impacta cada variable operativa (headcount, horas extra, inversión en marketing) sobre un resultado (ventas, satisfacción, rotación).
+- Es también la base conceptual de modelos más avanzados de Machine Learning (regresión regularizada, GLM, incluso la primera capa de una red neuronal es literalmente una regresión lineal).
 
 ---
 
@@ -15,7 +29,7 @@ La regresión lineal es una técnica paramétrica para predecir una variable con
 
 Una variable independiente (X) predice una variable dependiente (Y).
 
-**Ejemplo:** en una clínica veterinaria, ¿el número de mascotas atendidas (X) predice los ingresos diarios (Y) de una sede?
+**Ejemplo:** ¿el gasto en publicidad (X) predice las ventas mensuales (Y) de una tienda?
 
 ### Residuos
 
@@ -76,7 +90,7 @@ r = 30/30 = 1.0  → Correlación perfecta positiva
 
 Varias variables independientes predicen una sola variable dependiente.
 
-**Ejemplo:** predecir el costo de una consulta veterinaria (Y) usando especie, peso, tipo de procedimiento y sede (X1, X2, X3, X4).
+**Ejemplo ilustrativo — Precio de una vivienda:** predecir el precio de venta (Y) usando metros cuadrados, número de habitaciones, y antigüedad de la propiedad (X1, X2, X3) — el ejemplo clásico de regresión múltiple en analítica de negocio/bienes raíces.
 
 ### Pasos
 
@@ -87,7 +101,7 @@ Varias variables independientes predicen una sola variable dependiente.
 
 ### ⚠️ Multicolinealidad
 
-Ocurre cuando dos o más variables independientes están correlacionadas entre sí (no solo con Y). Ejemplo: "peso" y "talla" de una mascota probablemente estén muy correlacionados — esto infla artificialmente los coeficientes. Solución: identificar y eliminar la variable redundante.
+Ocurre cuando dos o más variables independientes están correlacionadas entre sí (no solo con Y). Ejemplo: en un modelo de precios de vivienda, "metros cuadrados totales" y "número de habitaciones" suelen estar muy correlacionados entre sí — esto infla artificialmente los coeficientes. Solución: identificar y eliminar la variable redundante, o usar técnicas de regularización (Ridge/Lasso).
 
 ### Métricas
 
@@ -115,37 +129,37 @@ temperatura   = np.array([70, 75, 80])
 r, p_valor = stats.pearsonr(ventas_helado, temperatura)
 print(f"r = {r:.4f}")
 
-# ── 2. REGRESIÓN SIMPLE — Clínica veterinaria ─────────────────
+# ── 2. REGRESIÓN SIMPLE — Gasto en publicidad vs Ventas ────────
 np.random.seed(42)
-mascotas_dia = np.array([10, 15, 12, 20, 18, 25, 14, 22, 16, 19])
-ingresos_dia = mascotas_dia * 45000 + np.random.normal(0, 30000, 10)
+gasto_publicidad = np.array([10, 15, 12, 20, 18, 25, 14, 22, 16, 19])  # miles $
+ventas = gasto_publicidad * 4.5 + np.random.normal(0, 3, 10)  # miles $
 
-X = mascotas_dia.reshape(-1, 1)
-y = ingresos_dia
+X = gasto_publicidad.reshape(-1, 1)
+y = ventas
 
 modelo = LinearRegression()
 modelo.fit(X, y)
 print(f"Intercepto: {modelo.intercept_:.2f} | Coef: {modelo.coef_[0]:.2f}")
 print(f"R²: {modelo.score(X, y):.4f}")
-print(f"Predicción 20 mascotas: {modelo.predict([[20]])[0]:.0f}")
+print(f"Predicción con $20k de publicidad: {modelo.predict([[20]])[0]:.1f}")
 
 # Visualización + residuos
-plt.scatter(mascotas_dia, ingresos_dia, color='steelblue')
-plt.plot(mascotas_dia, modelo.predict(X), color='red')
-plt.xlabel("N° mascotas/día"); plt.ylabel("Ingresos")
+plt.scatter(gasto_publicidad, ventas, color='steelblue')
+plt.plot(gasto_publicidad, modelo.predict(X), color='red')
+plt.xlabel("Gasto en publicidad (miles $)"); plt.ylabel("Ventas (miles $)")
 plt.title("Regresión Lineal Simple")
 plt.show()
 
-# ── 3. REGRESIÓN MÚLTIPLE ──────────────────────────────────────
+# ── 3. REGRESIÓN MÚLTIPLE — Precio de vivienda ──────────────────
 datos = pd.DataFrame({
-    'peso':         [5, 22, 3, 35, 8, 15, 28, 4, 18, 30],
-    'duracion_min': [20, 35, 15, 50, 25, 30, 45, 18, 32, 48],
-    'es_cirugia':   [0, 1, 0, 1, 0, 0, 1, 0, 0, 1],
-    'costo':        [50, 120, 40, 200, 60, 80, 180, 35, 90, 195]
+    'metros_cuadrados': [50, 120, 35, 200, 80, 150, 90, 45, 110, 180],
+    'habitaciones':     [1, 3, 1, 4, 2, 3, 2, 1, 3, 4],
+    'antiguedad_anios': [20, 5, 30, 2, 15, 8, 12, 25, 6, 3],
+    'precio_miles':     [80, 220, 55, 380, 140, 260, 155, 70, 210, 340]
 })
 
-X_multi = sm.add_constant(datos[['peso', 'duracion_min', 'es_cirugia']])
-modelo_multi = sm.OLS(datos['costo'], X_multi).fit()
+X_multi = sm.add_constant(datos[['metros_cuadrados', 'habitaciones', 'antiguedad_anios']])
+modelo_multi = sm.OLS(datos['precio_miles'], X_multi).fit()
 print(modelo_multi.summary())
 print("\nMatriz de correlación:")
 print(datos.corr())
@@ -164,57 +178,50 @@ cat("r =", round(r, 4), "\n")
 
 # ── 2. REGRESIÓN SIMPLE ────────────────────────────────────────
 set.seed(42)
-mascotas_dia <- c(10, 15, 12, 20, 18, 25, 14, 22, 16, 19)
-ingresos_dia <- mascotas_dia * 45000 + rnorm(10, 0, 30000)
+gasto_publicidad <- c(10, 15, 12, 20, 18, 25, 14, 22, 16, 19)
+ventas <- gasto_publicidad * 4.5 + rnorm(10, 0, 3)
 
-modelo <- lm(ingresos_dia ~ mascotas_dia)
+modelo <- lm(ventas ~ gasto_publicidad)
 summary(modelo)
-predict(modelo, newdata = data.frame(mascotas_dia = 20))
+predict(modelo, newdata = data.frame(gasto_publicidad = 20))
 
-plot(mascotas_dia, ingresos_dia, col="steelblue", pch=19)
+plot(gasto_publicidad, ventas, col="steelblue", pch=19)
 abline(modelo, col="red", lwd=2)
 
-# ── 3. REGRESIÓN MÚLTIPLE ──────────────────────────────────────
+# ── 3. REGRESIÓN MÚLTIPLE — Precio de vivienda ──────────────────
 datos <- data.frame(
-  peso = c(5, 22, 3, 35, 8, 15, 28, 4, 18, 30),
-  duracion_min = c(20, 35, 15, 50, 25, 30, 45, 18, 32, 48),
-  es_cirugia = c(0, 1, 0, 1, 0, 0, 1, 0, 0, 1),
-  costo = c(50, 120, 40, 200, 60, 80, 180, 35, 90, 195)
+  metros_cuadrados = c(50, 120, 35, 200, 80, 150, 90, 45, 110, 180),
+  habitaciones = c(1, 3, 1, 4, 2, 3, 2, 1, 3, 4),
+  antiguedad_anios = c(20, 5, 30, 2, 15, 8, 12, 25, 6, 3),
+  precio_miles = c(80, 220, 55, 380, 140, 260, 155, 70, 210, 340)
 )
 
-modelo_multi <- lm(costo ~ peso + duracion_min + es_cirugia, data = datos)
+modelo_multi <- lm(precio_miles ~ metros_cuadrados + habitaciones + antiguedad_anios, data = datos)
 summary(modelo_multi)
 cor(datos)
 ```
 
 ---
 
-## 🗺️ Mapa mental
+## 🗺️ Way of Work — Regresión Lineal (Simple y Múltiple)
 
 ```
-UD4: REGRESIÓN LINEAL SIMPLE Y MÚLTIPLE
-│
-├── Simple
-│     ├── 1 X → predice Y
-│     ├── Residuo = Observado − Predicho
-│     └── Mínimos Cuadrados (MCO)
-│
-├── Bondad de Ajuste
-│     ├── RSE → error promedio
-│     ├── Test F → p<0.05 = significativo
-│     └── R² → % variabilidad explicada
-│
-├── Condiciones
-│     └── Linealidad, normalidad, homocedasticidad, sin outliers, independencia
-│
-├── Correlación (r)
-│     └── -1 a +1: dirección y fuerza
-│
-└── Múltiple
-      ├── Varias X → predicen Y
-      ├── ⚠️ Multicolinealidad → X's correlacionadas entre sí
-      └── F-Test, R², Coeficientes Beta
+PASO 1 — Explorar la relación con un scatterplot antes de modelar nada
+PASO 2 — Calcular la correlación (r) entre cada X y la Y
+PASO 3 — Ajustar el modelo (simple o múltiple)
+PASO 4 — Verificar los supuestos (linealidad, normalidad, homocedasticidad)
+PASO 5 — Evaluar bondad de ajuste (R², Test F, significancia de coeficientes)
+PASO 6 — Revisar multicolinealidad si es regresión múltiple
+PASO 7 — Predecir e interpretar los coeficientes en el contexto del negocio
 ```
+
+1. **Explorar visualmente primero:** un scatterplot revela relaciones no lineales que el coeficiente r no captura bien.
+2. **Correlación:** te da una primera pista de qué variables vale la pena incluir en el modelo.
+3. **Ajustar el modelo:** `LinearRegression` (sklearn) para uso predictivo rápido, `statsmodels.OLS` cuando necesitas el detalle estadístico completo (p-valores, intervalos de confianza de los coeficientes).
+4. **Verificar supuestos:** un R² alto con supuestos violados (ej. heterocedasticidad) puede ser engañoso — revisa siempre el gráfico de residuos.
+5. **Evaluar bondad de ajuste:** no te quedes solo con R² — revisa también si los coeficientes individuales son significativos (p<0.05).
+6. **Multicolinealidad:** calcula la matriz de correlación entre las X — si dos variables tienen correlación >0.8 entre sí, considera eliminar una.
+7. **Interpretar en contexto:** un coeficiente estadísticamente significativo pero con efecto pequeño puede no ser accionable para el negocio — siempre traduce el coeficiente a magnitudes reales (ej. "$1,000 adicionales en publicidad generan ~$4,500 en ventas").
 
 ---
 
@@ -223,3 +230,4 @@ UD4: REGRESIÓN LINEAL SIMPLE Y MÚLTIPLE
 Gutiérrez González, E., & Panteleeva, O. V. (2016). *Estadística inferencial 1 para ingeniería y ciencias*. Grupo Editorial Patria.
 
 Montgomery, D. C., & Runger, G. C. (2010). *Probabilidad y estadística aplicadas a la ingeniería* (2.ª ed.). Limusa Wiley.
+
