@@ -14,16 +14,16 @@ Ingeniero Mecánico · BI Analyst · Data Scientist en formación
 
 ## 📈 Progreso general del programa
 
-![Progreso](https://img.shields.io/badge/Progreso%20del%20programa-40%25-2DD4BF?style=for-the-badge)
+![Progreso](https://img.shields.io/badge/Progreso%20del%20programa-41%25-2DD4BF?style=for-the-badge)
 
 ```
 T1 ████████████████████ 100%  ✅ Completado
 T2 ████████████████████ 100%  ✅ Completado
-T3 ░░░░░░░░░░░░░░░░░░░░   0%  ⏳ Pendiente
+T3 ██░░░░░░░░░░░░░░░░░░  10%  🔄 En curso (Semana 1/10)
 T4 ░░░░░░░░░░░░░░░░░░░░   0%  ⏳ Pendiente
 T5 ░░░░░░░░░░░░░░░░░░░░   0%  ⏳ Pendiente
 ──────────────────────────────
-Programa completo: ████████░░░░░░░░░░░░ ~40% (20 de 50 semanas)
+Programa completo: ████████░░░░░░░░░░░░ ~41% (21 de 50 semanas)
 ```
 
 ---
@@ -47,7 +47,7 @@ El objetivo es doble: registro académico personal y portafolio profesional púb
 |---|---|---|---|---|
 | **T1** | Mar – May 2026 | [Fundamentos de Programación (JS)](./T1-Fundamentos-Programacion/) | [Big Data y Datos Masivos](./T1-BigData-Datos-Masivos/) | ✅ Completado |
 | **T2** | Jun – Ago 2026 | [Análisis de Datos y Métodos Estadísticos](./T2-Analisis-Datos-Metodos-Estadisticos/) | [Bases de Datos y NoSQL](./T2-Bases-Datos-NoSQL/) | ✅ Completado |
-| **T3** | Sep – Nov 2026 | Fundamentos de Machine Learning | Minería de Datos | ⏳ Pendiente |
+| **T3** | Sep – Nov 2026 | [Fundamentos de Machine Learning](./T3-Fundamentos-ML/) | [Minería de Datos](./T3-Mineria-Datos/) | 🔄 En curso |
 | **T4** | Dic 2026 – Feb 2027 | Lenguaje R | Visualización de Datos | ⏳ Pendiente |
 | **T5** | Mar – Jun 2027 | Privacidad y Protección de Datos | Proyecto Integrador | ⏳ Pendiente |
 
@@ -65,6 +65,12 @@ El objetivo es doble: registro académico personal y portafolio profesional púb
 ![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
+
+### T3
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
 
 ### Experiencia previa
@@ -162,6 +168,22 @@ El objetivo es doble: registro académico personal y portafolio profesional púb
 **Actividades prácticas:**
 - [Actividad Práctica 1 — U1-5](./T2-Bases-Datos-NoSQL/actividades/Actividad1-Modelado-Normalizacion-Oracle.md) (modelado, normalización, Oracle) ✅
 - Actividad Práctica 2 — U6-13: [Tendencias BD Nube/SQL/NoSQL](./T2-Bases-Datos-NoSQL/actividades/Actividad2-Tendencias-BD-Nube-SQL-NoSQL.md) · [Anexo FODA Personal](./T2-Bases-Datos-NoSQL/actividades/Actividad2-FODA-Personal.md) ✅
+
+---
+
+## 📚 Trimestre 3 — Contenido 🔄 En curso
+
+### 5️⃣ [Fundamentos de Machine Learning](./T3-Fundamentos-ML/)
+
+| Unidad | Tema | Notebook |
+|---|---|---|
+| UD1 | Introducción al Machine Learning | [Ver](./T3-Fundamentos-ML/notebooks/UD01-Introduccion-ML.md) ✅ |
+
+### 6️⃣ [Minería de Datos](./T3-Mineria-Datos/)
+
+| Unidad | Tema | Notebook |
+|---|---|---|
+| UD1 | Minería de Datos o Data Mining y el Aprendizaje Automático | [Ver](./T3-Mineria-Datos/notebooks/UD01-Mineria-Datos-Aprendizaje-Automatico.md) ✅ |
 
 ---
 
