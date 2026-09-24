@@ -19,7 +19,7 @@ Ingeniero Mecánico · BI Analyst · Data Scientist en formación
 ```
 T1 ████████████████████ 100%  ✅ Completado
 T2 ████████████████████ 100%  ✅ Completado
-T3 ██░░░░░░░░░░░░░░░░░░  10%  🔄 En curso (Semana 1/10)
+T3 ████░░░░░░░░░░░░░░░░  20%  🔄 En curso (Semana 2/10)
 T4 ░░░░░░░░░░░░░░░░░░░░   0%  ⏳ Pendiente
 T5 ░░░░░░░░░░░░░░░░░░░░   0%  ⏳ Pendiente
 ──────────────────────────────
@@ -178,12 +178,14 @@ El objetivo es doble: registro académico personal y portafolio profesional púb
 | Unidad | Tema | Notebook |
 |---|---|---|
 | UD1 | Introducción al Machine Learning | [Ver](./T3-Fundamentos-ML/notebooks/UD01-Introduccion-ML.md) ✅ |
+| UD2 | Introducción a las Redes Neuronales Artificiales (RNA) | [Ver](./T3-Fundamentos-ML/notebooks/UD02-Introduccion-RNA.md) ✅ |
 
 ### 6️⃣ [Minería de Datos](./T3-Mineria-Datos/)
 
 | Unidad | Tema | Notebook |
 |---|---|---|
 | UD1 | Minería de Datos o Data Mining y el Aprendizaje Automático | [Ver](./T3-Mineria-Datos/notebooks/UD01-Mineria-Datos-Aprendizaje-Automatico.md) ✅ |
+| UD2 | WEKA y Data Mining | [Ver](./T3-Mineria-Datos/notebooks/UD02-WEKA-Data-Mining.md) ✅ |
 
 ---
 
