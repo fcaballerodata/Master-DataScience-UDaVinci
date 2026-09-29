@@ -17,7 +17,7 @@ Asignatura enfocada en el proceso de Minería de Datos (Data Mining) y su relaci
 |---|---|---|---|
 | UD1 | Minería de Datos o Data Mining y el Aprendizaje Automático | [Ver](./notebooks/UD01-Mineria-Datos-Aprendizaje-Automatico.md) ✅ | S1 |
 | UD2 | Acondicionamiento de datos (Weka) | [Ver](./notebooks/UD02-WEKA-Data-Mining.md) ✅ | S2 |
-| UD3 | Inteligencia artificial | Pendiente | S3 |
+| UD3 | Inteligencia artificial | [Ver](./notebooks/UD03-Introduccion-IA.md) ✅ | S3 |
 | UD4 | Machine Learning-Aprendizaje Automático | Pendiente | S4 |
 | UD5 | Procesamiento de Lenguaje Natural (PLN) | Pendiente | S5 |
 | UD6 | Modelado de Texto en Machine Learning / Deeplearning | Pendiente | S6 |
