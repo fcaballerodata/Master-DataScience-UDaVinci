@@ -14,16 +14,16 @@ Ingeniero Mecánico · BI Analyst · Data Scientist en formación
 
 ## 📈 Progreso general del programa
 
-![Progreso](https://img.shields.io/badge/Progreso%20del%20programa-46%25-2DD4BF?style=for-the-badge)
+![Progreso](https://img.shields.io/badge/Progreso%20del%20programa-48%25-2DD4BF?style=for-the-badge)
 
 ```
 T1 ████████████████████ 100%  ✅ Completado
 T2 ████████████████████ 100%  ✅ Completado
-T3 ██████░░░░░░░░░░░░░░  30%  🔄 En curso (Semana 3/10)
+T3 ████████░░░░░░░░░░░░  40%  🔄 En curso (Semana 4/10)
 T4 ░░░░░░░░░░░░░░░░░░░░   0%  ⏳ Pendiente
 T5 ░░░░░░░░░░░░░░░░░░░░   0%  ⏳ Pendiente
 ──────────────────────────────
-Programa completo: █████████░░░░░░░░░░░ ~46% (23 de 50 semanas)
+Programa completo: █████████░░░░░░░░░░░ ~48% (24 de 50 semanas)
 ```
 
 ---
@@ -180,6 +180,7 @@ El objetivo es doble: registro académico personal y portafolio profesional púb
 | UD1 | Introducción al Machine Learning | [Ver](./T3-Fundamentos-ML/notebooks/UD01-Introduccion-ML.md) ✅ |
 | UD2 | Introducción a las Redes Neuronales Artificiales (RNA) | [Ver](./T3-Fundamentos-ML/notebooks/UD02-Introduccion-RNA.md) ✅ |
 | UD3 | Características de las RNA | [Ver](./T3-Fundamentos-ML/notebooks/UD03-Caracteristicas-RNA.md) ✅ |
+| UD4 | Clasificación de las RNA | [Ver](./T3-Fundamentos-ML/notebooks/UD04-Clasificacion-RNA.md) ✅ |
 
 **Foros:** [Foro UD3 — Redes Neuronales Artificiales](./T3-Fundamentos-ML/foros/Foro-UD3-Redes-Neuronales-Artificiales.md) ✅
 
@@ -190,6 +191,7 @@ El objetivo es doble: registro académico personal y portafolio profesional púb
 | UD1 | Minería de Datos o Data Mining y el Aprendizaje Automático | [Ver](./T3-Mineria-Datos/notebooks/UD01-Mineria-Datos-Aprendizaje-Automatico.md) ✅ |
 | UD2 | WEKA y Data Mining | [Ver](./T3-Mineria-Datos/notebooks/UD02-WEKA-Data-Mining.md) ✅ |
 | UD3 | Introducción a la Inteligencia Artificial | [Ver](./T3-Mineria-Datos/notebooks/UD03-Introduccion-IA.md) ✅ |
+| UD4 | Introducción al PLN | [Ver](./T3-Mineria-Datos/notebooks/UD04-Introduccion-PLN.md) ✅ |
 
 ---
 
