@@ -18,7 +18,7 @@ Asignatura enfocada en los fundamentos del Machine Learning y las Redes Neuronal
 | UD1 | Introducción al Machine Learning | [Ver](./notebooks/UD01-Introduccion-ML.md) ✅ | S1 |
 | UD2 | Introducción a las Redes Neuronales Artificiales (RNA) | [Ver](./notebooks/UD02-Introduccion-RNA.md) ✅ | S2 |
 | UD3 | Características de las RNA | [Ver](./notebooks/UD03-Caracteristicas-RNA.md) ✅ | S3 |
-| UD4 | Clasificación de las RNA | Pendiente | S4 |
+| UD4 | Clasificación de las RNA | [Ver](./notebooks/UD04-Clasificacion-RNA.md) ✅ | S4 |
 | UD5 | Fundamentos de las RNA | Pendiente | S5 |
 | UD6 | Mecanismo de aprendizaje | Pendiente | S6 |
 | UD7 | Topologías de las RNA | Pendiente | S7 |
