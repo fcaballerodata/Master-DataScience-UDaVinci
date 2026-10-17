@@ -14,16 +14,16 @@ Ingeniero Mecánico · BI Analyst · Data Scientist en formación
 
 ## 📈 Progreso general del programa
 
-![Progreso](https://img.shields.io/badge/Progreso%20del%20programa-48%25-2DD4BF?style=for-the-badge)
+![Progreso](https://img.shields.io/badge/Progreso%20del%20programa-50%25-2DD4BF?style=for-the-badge)
 
 ```
 T1 ████████████████████ 100%  ✅ Completado
 T2 ████████████████████ 100%  ✅ Completado
-T3 ████████░░░░░░░░░░░░  40%  🔄 En curso (Semana 4/10)
+T3 ██████████░░░░░░░░░░  50%  🔄 En curso (Semana 5/10)
 T4 ░░░░░░░░░░░░░░░░░░░░   0%  ⏳ Pendiente
 T5 ░░░░░░░░░░░░░░░░░░░░   0%  ⏳ Pendiente
 ──────────────────────────────
-Programa completo: █████████░░░░░░░░░░░ ~48% (24 de 50 semanas)
+Programa completo: ██████████░░░░░░░░░░ ~50% (25 de 50 semanas)
 ```
 
 ---
@@ -181,8 +181,12 @@ El objetivo es doble: registro académico personal y portafolio profesional púb
 | UD2 | Introducción a las Redes Neuronales Artificiales (RNA) | [Ver](./T3-Fundamentos-ML/notebooks/UD02-Introduccion-RNA.md) ✅ |
 | UD3 | Características de las RNA | [Ver](./T3-Fundamentos-ML/notebooks/UD03-Caracteristicas-RNA.md) ✅ |
 | UD4 | Clasificación de las RNA | [Ver](./T3-Fundamentos-ML/notebooks/UD04-Clasificacion-RNA.md) ✅ |
+| UD5 | Fundamentos de las RNA | [Ver](./T3-Fundamentos-ML/notebooks/UD05-Fundamentos-RNA.md) ✅ |
 
 **Foros:** [Foro UD3 — Redes Neuronales Artificiales](./T3-Fundamentos-ML/foros/Foro-UD3-Redes-Neuronales-Artificiales.md) ✅
+
+**Actividades prácticas:**
+- [Actividad Integradora 1 — UD1-5](./T3-Fundamentos-ML/actividades/Actividad-Integradora-1-RNA-Keras/README.md) ✅ (mapa conceptual y red neuronal con Keras para clasificación binaria)
 
 ### 6️⃣ [Minería de Datos](./T3-Mineria-Datos/)
 
@@ -192,6 +196,7 @@ El objetivo es doble: registro académico personal y portafolio profesional púb
 | UD2 | WEKA y Data Mining | [Ver](./T3-Mineria-Datos/notebooks/UD02-WEKA-Data-Mining.md) ✅ |
 | UD3 | Introducción a la Inteligencia Artificial | [Ver](./T3-Mineria-Datos/notebooks/UD03-Introduccion-IA.md) ✅ |
 | UD4 | Introducción al PLN | [Ver](./T3-Mineria-Datos/notebooks/UD04-Introduccion-PLN.md) ✅ |
+| UD5 | PLN en Python (NLTK) | [Ver](./T3-Mineria-Datos/notebooks/UD05-PLN-Python.md) ✅ |
 
 ---
 
