@@ -19,7 +19,7 @@ Asignatura enfocada en el proceso de Minería de Datos (Data Mining) y su relaci
 | UD2 | Acondicionamiento de datos (Weka) | [Ver](./notebooks/UD02-WEKA-Data-Mining.md) ✅ | S2 |
 | UD3 | Inteligencia artificial | [Ver](./notebooks/UD03-Introduccion-IA.md) ✅ | S3 |
 | UD4 | Introducción al PLN | [Ver](./notebooks/UD04-Introduccion-PLN.md) ✅ | S4 |
-| UD5 | Procesamiento de Lenguaje Natural (PLN) | Pendiente | S5 |
+| UD5 | PLN en Python (NLTK) | [Ver](./notebooks/UD05-PLN-Python.md) ✅ | S5 |
 | UD6 | Modelado de Texto en Machine Learning / Deeplearning | Pendiente | S6 |
 | UD7 | Deeplearning | Pendiente | S7 |
 | UD8 | Data driven decision | Pendiente | S8 |
