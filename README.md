@@ -14,16 +14,16 @@ Ingeniero Mecánico · BI Analyst · Data Scientist en formación
 
 ## 📈 Progreso general del programa
 
-![Progreso](https://img.shields.io/badge/Progreso%20del%20programa-50%25-2DD4BF?style=for-the-badge)
+![Progreso](https://img.shields.io/badge/Progreso%20del%20programa-52%25-2DD4BF?style=for-the-badge)
 
 ```
 T1 ████████████████████ 100%  ✅ Completado
 T2 ████████████████████ 100%  ✅ Completado
-T3 ██████████░░░░░░░░░░  50%  🔄 En curso (Semana 5/10)
+T3 ████████████░░░░░░░░  60%  🔄 En curso (Semana 6/10)
 T4 ░░░░░░░░░░░░░░░░░░░░   0%  ⏳ Pendiente
 T5 ░░░░░░░░░░░░░░░░░░░░   0%  ⏳ Pendiente
 ──────────────────────────────
-Programa completo: ██████████░░░░░░░░░░ ~50% (25 de 50 semanas)
+Programa completo: ██████████░░░░░░░░░░ ~52% (26 de 50 semanas)
 ```
 
 ---
@@ -182,6 +182,7 @@ El objetivo es doble: registro académico personal y portafolio profesional púb
 | UD3 | Características de las RNA | [Ver](./T3-Fundamentos-ML/notebooks/UD03-Caracteristicas-RNA.md) ✅ |
 | UD4 | Clasificación de las RNA | [Ver](./T3-Fundamentos-ML/notebooks/UD04-Clasificacion-RNA.md) ✅ |
 | UD5 | Fundamentos de las RNA | [Ver](./T3-Fundamentos-ML/notebooks/UD05-Fundamentos-RNA.md) ✅ |
+| UD6 | Mecanismos de aprendizaje | [Ver](./T3-Fundamentos-ML/notebooks/UD06-Mecanismos-Aprendizaje.md) ✅ |
 
 **Foros:** [Foro UD3 — Redes Neuronales Artificiales](./T3-Fundamentos-ML/foros/Foro-UD3-Redes-Neuronales-Artificiales.md) ✅
 
@@ -197,6 +198,9 @@ El objetivo es doble: registro académico personal y portafolio profesional púb
 | UD3 | Introducción a la Inteligencia Artificial | [Ver](./T3-Mineria-Datos/notebooks/UD03-Introduccion-IA.md) ✅ |
 | UD4 | Introducción al PLN | [Ver](./T3-Mineria-Datos/notebooks/UD04-Introduccion-PLN.md) ✅ |
 | UD5 | PLN en Python (NLTK) | [Ver](./T3-Mineria-Datos/notebooks/UD05-PLN-Python.md) ✅ |
+
+**Actividades prácticas:**
+- [Actividad Práctica 1 — Minería de datos o data mining y el aprendizaje automático](./T3-Mineria-Datos/actividades/Actividad-Practica-1-Mineria-Data-Mining.md) ✅ (modelos y técnicas de Data Mining, minería de textos y Web Mining)
 
 ---
 
