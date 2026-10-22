@@ -20,7 +20,7 @@ Asignatura enfocada en los fundamentos del Machine Learning y las Redes Neuronal
 | UD3 | Características de las RNA | [Ver](./notebooks/UD03-Caracteristicas-RNA.md) ✅ | S3 |
 | UD4 | Clasificación de las RNA | [Ver](./notebooks/UD04-Clasificacion-RNA.md) ✅ | S4 |
 | UD5 | Fundamentos de las RNA | [Ver](./notebooks/UD05-Fundamentos-RNA.md) ✅ | S5 |
-| UD6 | Mecanismo de aprendizaje | Pendiente | S6 |
+| UD6 | Mecanismos de aprendizaje | [Ver](./notebooks/UD06-Mecanismos-Aprendizaje.md) ✅ | S6 |
 | UD7 | Topologías de las RNA | Pendiente | S7 |
 | UD8 | El perceptrón | Pendiente | S8 |
 | UD9 | Construcción de una RNA | Pendiente | S9 |
