@@ -20,7 +20,7 @@ Asignatura enfocada en el proceso de Minería de Datos (Data Mining) y su relaci
 | UD3 | Inteligencia artificial | [Ver](./notebooks/UD03-Introduccion-IA.md) ✅ | S3 |
 | UD4 | Introducción al PLN | [Ver](./notebooks/UD04-Introduccion-PLN.md) ✅ | S4 |
 | UD5 | PLN en Python (NLTK) | [Ver](./notebooks/UD05-PLN-Python.md) ✅ | S5 |
-| UD6 | Introducción al Machine Learning | Pendiente | S6 |
+| UD6 | Introducción al Machine Learning | [Ver](./notebooks/UD06-Introduccion-ML.md) ✅ | S6 |
 | UD7 | Deeplearning | Pendiente | S7 |
 | UD8 | Data driven decision | Pendiente | S8 |
 | UD9 | Creación de Modelos de Datos (Clustering) | Pendiente | S9 |
