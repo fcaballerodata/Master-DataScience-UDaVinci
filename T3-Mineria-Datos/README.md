@@ -20,11 +20,13 @@ Asignatura enfocada en el proceso de Minería de Datos (Data Mining) y su relaci
 | UD3 | Inteligencia artificial | [Ver](./notebooks/UD03-Introduccion-IA.md) ✅ | S3 |
 | UD4 | Introducción al PLN | [Ver](./notebooks/UD04-Introduccion-PLN.md) ✅ | S4 |
 | UD5 | PLN en Python (NLTK) | [Ver](./notebooks/UD05-PLN-Python.md) ✅ | S5 |
-| UD6 | Introducción al Machine Learning | [Ver](./notebooks/UD06-Introduccion-ML.md) ✅ | S6 |
-| UD7 | Deeplearning | Pendiente | S7 |
+| UD6 | Introducción al Machine Learning | Pendiente | S6 |
+| UD7 | Extracción de estructura de los datos, Clustering | [Ver](./notebooks/UD07-Clustering.md) ✅ | S7 |
 | UD8 | Data driven decision | Pendiente | S8 |
 | UD9 | Creación de Modelos de Datos (Clustering) | Pendiente | S9 |
 | UD10 | Evaluación de Modelos y Clustering Difuso | Pendiente | S10 |
+
+> ℹ️ El campus titula la UD7 "Extracción de estructura de los datos, Clustering". Confirmar el orden de las UD8–UD10 con el campus (el título "Deeplearning" que figuraba antes para la UD7 ya no corresponde).
 
 ---
 
@@ -32,7 +34,7 @@ Asignatura enfocada en el proceso de Minería de Datos (Data Mining) y su relaci
 
 | Foro | Tema | Semana | Archivo |
 |---|---|---|---|
-| Foro UD7 | Deeplearning | S7 | Pendiente |
+| Foro UD7 | Kaggle: Datos compartidos | S7 | [Ver](./foros/Foro-UD7-Kaggle-Datos-Compartidos.md) ✅ |
 
 ---
 
@@ -42,6 +44,17 @@ Asignatura enfocada en el proceso de Minería de Datos (Data Mining) y su relaci
 |---|---|---|---|
 | Actividad Práctica 1 ✅ | UD1 (apoyo UD4–UD5) | S6 | [Ver](./actividades/Actividad-Practica-1-Mineria-Data-Mining.md) |
 | Actividad Práctica 2 | UD9 | S9 | Pendiente |
+
+---
+
+## 💻 Código y Way of Work
+
+| Recurso | Descripción |
+|---|---|
+| [Playbook de clustering](./notebooks/UD07-Clustering.md#7--playbook-de-los-datos-al-algoritmo) | Paso a paso para decidir entre K-Means, GMM, DBSCAN, Mean-Shift y jerárquico |
+| [`playbook_clustering.py`](./codigo/playbook_clustering.py) | Función `diagnostico_clustering(df)`: diagnostica los datos y recomienda un algoritmo inicial |
+| [`prueba_playbook.py`](./codigo/prueba_playbook.py) | Prueba con 4 conjuntos sintéticos |
+| [`analisis_rfm.py`](./codigo/analisis_rfm.py) | Limpieza y segmentación RFM de una base de clientes (la base no se incluye por contener identificadores) |
 
 ---
 
