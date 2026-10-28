@@ -20,13 +20,13 @@ Asignatura enfocada en el proceso de Minería de Datos (Data Mining) y su relaci
 | UD3 | Inteligencia artificial | [Ver](./notebooks/UD03-Introduccion-IA.md) ✅ | S3 |
 | UD4 | Introducción al PLN | [Ver](./notebooks/UD04-Introduccion-PLN.md) ✅ | S4 |
 | UD5 | PLN en Python (NLTK) | [Ver](./notebooks/UD05-PLN-Python.md) ✅ | S5 |
-| UD6 | Introducción al Machine Learning | Pendiente | S6 |
+| UD6 | Introducción al Machine Learning | [Ver](./notebooks/UD06-Introduccion-ML.md) ✅ | S6 |
 | UD7 | Extracción de estructura de los datos, Clustering | [Ver](./notebooks/UD07-Clustering.md) ✅ | S7 |
-| UD8 | Data driven decision | Pendiente | S8 |
-| UD9 | Creación de Modelos de Datos (Clustering) | Pendiente | S9 |
+| UD8 | Clasificación | Pendiente | S8 |
+| UD9 | Redes neuronales y Deep Learning | Pendiente | S9 |
 | UD10 | Evaluación de Modelos y Clustering Difuso | Pendiente | S10 |
 
-> ℹ️ El campus titula la UD7 "Extracción de estructura de los datos, Clustering". Confirmar el orden de las UD8–UD10 con el campus (el título "Deeplearning" que figuraba antes para la UD7 ya no corresponde).
+> ℹ️ Temario según el cronograma actualizado del campus (UD7: Clustering; UD8: Clasificación; UD9: Redes neuronales y Deep Learning).
 
 ---
 
