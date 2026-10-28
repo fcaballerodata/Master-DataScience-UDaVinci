@@ -21,7 +21,7 @@ Asignatura enfocada en los fundamentos del Machine Learning y las Redes Neuronal
 | UD4 | Clasificación de las RNA | [Ver](./notebooks/UD04-Clasificacion-RNA.md) ✅ | S4 |
 | UD5 | Fundamentos de las RNA | [Ver](./notebooks/UD05-Fundamentos-RNA.md) ✅ | S5 |
 | UD6 | Mecanismos de aprendizaje | [Ver](./notebooks/UD06-Mecanismos-Aprendizaje.md) ✅ | S6 |
-| UD7 | Topologías de las RNA | Pendiente | S7 |
+| UD7 | Topologías de las RNA | [Ver](./notebooks/UD07-Topologias-RNA.md) ✅ | S7 |
 | UD8 | El perceptrón | Pendiente | S8 |
 | UD9 | Construcción de una RNA | Pendiente | S9 |
 | UD10 | Interpretación de resultados | Pendiente | S10 |
@@ -33,7 +33,7 @@ Asignatura enfocada en los fundamentos del Machine Learning y las Redes Neuronal
 | Foro | Tema | Semana | Archivo |
 |---|---|---|---|
 | Foro UD3 | Redes Neuronales Artificiales | S3 | [Ver](./foros/Foro-UD3-Redes-Neuronales-Artificiales.md) ✅ |
-| Foro UD7 | Topologías de las RNA | S7 | Pendiente |
+| Foro UD7 | Topologías de las RNA | S7 | [Ver](./foros/Foro-UD7-Topologias-RNA.md) ✅ |
 | Foro UD9 | Construcción de una RNA | S9 | Pendiente |
 
 ---
