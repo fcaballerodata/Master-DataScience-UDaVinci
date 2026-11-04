@@ -22,7 +22,7 @@ Asignatura enfocada en el proceso de Minería de Datos (Data Mining) y su relaci
 | UD5 | PLN en Python (NLTK) | [Ver](./notebooks/UD05-PLN-Python.md) ✅ | S5 |
 | UD6 | Introducción al Machine Learning | [Ver](./notebooks/UD06-Introduccion-ML.md) ✅ | S6 |
 | UD7 | Extracción de estructura de los datos, Clustering | [Ver](./notebooks/UD07-Clustering.md) ✅ | S7 |
-| UD8 | Clasificación | Pendiente | S8 |
+| UD8 | Clasificación | [Ver](./notebooks/UD08-Clasificacion.md) ✅ | S8 |
 | UD9 | Redes neuronales y Deep Learning | Pendiente | S9 |
 | UD10 | Evaluación de Modelos y Clustering Difuso | Pendiente | S10 |
 
@@ -54,6 +54,9 @@ Asignatura enfocada en el proceso de Minería de Datos (Data Mining) y su relaci
 | [Playbook de clustering](./notebooks/UD07-Clustering.md#7--playbook-de-los-datos-al-algoritmo) | Paso a paso para decidir entre K-Means, GMM, DBSCAN, Mean-Shift y jerárquico |
 | [`playbook_clustering.py`](./codigo/playbook_clustering.py) | Función `diagnostico_clustering(df)`: diagnostica los datos y recomienda un algoritmo inicial |
 | [`prueba_playbook.py`](./codigo/prueba_playbook.py) | Prueba con 4 conjuntos sintéticos |
+| [Cómo medir un clasificador](./notebooks/UD08-Clasificacion.md#6-complemento-cómo-medir-un-clasificador--evaluar_clasificadorpy) | Matriz de confusión, métricas, umbral y costo, ROC-AUC vs PR-AUC, buenas prácticas |
+| [`comparar_clasificadores.py`](./codigo/comparar_clasificadores.py) | Naive Bayes, SVM, KNN, árbol y Random Forest en cáncer de mama; KNN sin escalar, profundidad, k, desbalance |
+| [`evaluar_clasificador.py`](./codigo/evaluar_clasificador.py) | Métricas, umbrales, costo, ROC/PR y desbalance |
 | [`analisis_rfm.py`](./codigo/analisis_rfm.py) | Limpieza y segmentación RFM de una base de clientes (la base no se incluye por contener identificadores) |
 
 ---
