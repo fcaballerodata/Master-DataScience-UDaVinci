@@ -202,5 +202,3 @@ Estandariza porque usa distancias y domina la escala mayor. "Perezoso" = no entr
 - Pedregosa, F., et al. (2011). Scikit-learn: Machine learning in Python. *Journal of Machine Learning Research, 12*, 2825–2830.
 - Saito, T., & Rehmsmeier, M. (2015). The precision-recall plot is more informative than the ROC plot when evaluating binary classifiers on imbalanced datasets. *PLoS ONE, 10*(3), e0118432.
 - Universidad DaVinci. (s. f.). *Clasificación* [Guía académica, Unidad 8]. Minería de Datos. LMS UDaVinci.
-
-*De estas fuentes confirmé autores, revista, volumen, páginas y año; no leí los artículos completos.*
