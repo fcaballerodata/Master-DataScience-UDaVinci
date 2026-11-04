@@ -22,7 +22,7 @@ Asignatura enfocada en los fundamentos del Machine Learning y las Redes Neuronal
 | UD5 | Fundamentos de las RNA | [Ver](./notebooks/UD05-Fundamentos-RNA.md) ✅ | S5 |
 | UD6 | Mecanismos de aprendizaje | [Ver](./notebooks/UD06-Mecanismos-Aprendizaje.md) ✅ | S6 |
 | UD7 | Topologías de las RNA | [Ver](./notebooks/UD07-Topologias-RNA.md) ✅ | S7 |
-| UD8 | El perceptrón | Pendiente | S8 |
+| UD8 | El perceptrón | [Ver](./notebooks/UD08-El-Perceptron.md) ✅ | S8 |
 | UD9 | Construcción de una RNA | Pendiente | S9 |
 | UD10 | Interpretación de resultados | Pendiente | S10 |
 
@@ -44,6 +44,15 @@ Asignatura enfocada en los fundamentos del Machine Learning y las Redes Neuronal
 |---|---|---|---|
 | Actividad Integradora 1 ✅ | UD1–UD5 | S5 | [Ver](./actividades/Actividad-Integradora-1-RNA-Keras/README.md) |
 | Actividad Integradora Final | UD10 | S10 | Pendiente |
+
+---
+
+## 💻 Código
+
+| Recurso | Descripción |
+|---|---|
+| [`perceptron_backprop.py`](./codigo/perceptron_backprop.py) | Perceptrón desde cero (AND, OR, XOR), backpropagation en un MLP 2-3-1 con verificación del gradiente, perceptrón vs MLP en datos reales |
+| [`traza_or.py`](./codigo/traza_or.py) | Seguimiento época por época de la regla de aprendizaje en OR |
 
 ---
 
