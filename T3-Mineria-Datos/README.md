@@ -23,7 +23,7 @@ Asignatura enfocada en el proceso de Minería de Datos (Data Mining) y su relaci
 | UD6 | Introducción al Machine Learning | [Ver](./notebooks/UD06-Introduccion-ML.md) ✅ | S6 |
 | UD7 | Extracción de estructura de los datos, Clustering | [Ver](./notebooks/UD07-Clustering.md) ✅ | S7 |
 | UD8 | Clasificación | [Ver](./notebooks/UD08-Clasificacion.md) ✅ | S8 |
-| UD9 | Redes neuronales y Deep Learning | Pendiente | S9 |
+| UD9 | Redes neuronales y Deep Learning | [Ver](./notebooks/UD09-Redes-Neuronales-Deep-Learning.md) ✅ | S9 |
 | UD10 | Evaluación de Modelos y Clustering Difuso | Pendiente | S10 |
 
 > ℹ️ Temario según el cronograma actualizado del campus (UD7: Clustering; UD8: Clasificación; UD9: Redes neuronales y Deep Learning).
@@ -43,7 +43,7 @@ Asignatura enfocada en el proceso de Minería de Datos (Data Mining) y su relaci
 | Actividad | Cubre | Semana | Carpeta |
 |---|---|---|---|
 | Actividad Práctica 1 ✅ | UD1 (apoyo UD4–UD5) | S6 | [Ver](./actividades/Actividad-Practica-1-Mineria-Data-Mining.md) |
-| Actividad Práctica 2 | UD9 | S9 | Pendiente |
+| Actividad Práctica 2 ✅ | UD2 (Weka y Data Mining) | S9 | [Ver](./actividades/Actividad-Practica-2-Weka-Data-Mining.md) |
 
 ---
 
@@ -57,6 +57,7 @@ Asignatura enfocada en el proceso de Minería de Datos (Data Mining) y su relaci
 | [Cómo medir un clasificador](./notebooks/UD08-Clasificacion.md#6-complemento-cómo-medir-un-clasificador--evaluar_clasificadorpy) | Matriz de confusión, métricas, umbral y costo, ROC-AUC vs PR-AUC, buenas prácticas |
 | [`comparar_clasificadores.py`](./codigo/comparar_clasificadores.py) | Naive Bayes, SVM, KNN, árbol y Random Forest en cáncer de mama; KNN sin escalar, profundidad, k, desbalance |
 | [`evaluar_clasificador.py`](./codigo/evaluar_clasificador.py) | Métricas, umbrales, costo, ROC/PR y desbalance |
+| [`redes_neuronales_optimizadores_hopfield.py`](./codigo/redes_neuronales_optimizadores_hopfield.py) | MLP con sgd / adam / lbfgs en cáncer de mama y red de Hopfield desde cero (recuperación con ruido y capacidad) |
 | [`analisis_rfm.py`](./codigo/analisis_rfm.py) | Limpieza y segmentación RFM de una base de clientes (la base no se incluye por contener identificadores) |
 
 ---
