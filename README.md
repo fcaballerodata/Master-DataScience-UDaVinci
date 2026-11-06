@@ -14,16 +14,16 @@ Ingeniero Mecánico · BI Analyst · Data Scientist en formación
 
 ## 📈 Progreso general del programa
 
-![Progreso](https://img.shields.io/badge/Progreso%20del%20programa-56%25-2DD4BF?style=for-the-badge)
+![Progreso](https://img.shields.io/badge/Progreso%20del%20programa-58%25-2DD4BF?style=for-the-badge)
 
 ```
 T1 ████████████████████ 100%  ✅ Completado
 T2 ████████████████████ 100%  ✅ Completado
-T3 ████████████████░░░░  80%  🔄 En curso (Semana 8/10)
+T3 ██████████████████░░  90%  🔄 En curso (Semana 9/10)
 T4 ░░░░░░░░░░░░░░░░░░░░   0%  ⏳ Pendiente
 T5 ░░░░░░░░░░░░░░░░░░░░   0%  ⏳ Pendiente
 ──────────────────────────────
-Programa completo: ███████████░░░░░░░░░ ~56% (28 de 50 semanas)
+Programa completo: ████████████░░░░░░░░ ~58% (29 de 50 semanas)
 ```
 
 ---
@@ -185,8 +185,11 @@ El objetivo es doble: registro académico personal y portafolio profesional púb
 | UD6 | Mecanismos de aprendizaje | [Ver](./T3-Fundamentos-ML/notebooks/UD06-Mecanismos-Aprendizaje.md) ✅ |
 | UD7 | Topologías de las RNA | [Ver](./T3-Fundamentos-ML/notebooks/UD07-Topologias-RNA.md) ✅ |
 | UD8 | El perceptrón | [Ver](./T3-Fundamentos-ML/notebooks/UD08-El-Perceptron.md) ✅ |
+| UD9 | Construcción de una RNA | [Ver](./T3-Fundamentos-ML/notebooks/UD09-Construccion-RNA.md) ✅ |
 
-**Foros:** [Foro UD3 — Redes Neuronales Artificiales](./T3-Fundamentos-ML/foros/Foro-UD3-Redes-Neuronales-Artificiales.md) ✅ · [Foro UD7 — Topologías de las RNA](./T3-Fundamentos-ML/foros/Foro-UD7-Topologias-RNA.md) ✅
+**Foros:** [Foro UD3 — Redes Neuronales Artificiales](./T3-Fundamentos-ML/foros/Foro-UD3-Redes-Neuronales-Artificiales.md) ✅ · [Foro UD7 — Topologías de las RNA](./T3-Fundamentos-ML/foros/Foro-UD7-Topologias-RNA.md) ✅ · [Foro UD9 — Diseño y estructura en RNA](./T3-Fundamentos-ML/foros/Foro-UD9-Diseno-Estructura-RNA.md) ✅
+
+**Código:** [Perceptrón y backpropagation](./T3-Fundamentos-ML/codigo/perceptron_backprop.py) · [Construcción de una RNA](./T3-Fundamentos-ML/codigo/construccion_rna.py)
 
 **Actividades prácticas:**
 - [Actividad Integradora 1 — UD1-5](./T3-Fundamentos-ML/actividades/Actividad-Integradora-1-RNA-Keras/README.md) ✅ (mapa conceptual y red neuronal con Keras para clasificación binaria)
@@ -203,13 +206,15 @@ El objetivo es doble: registro académico personal y portafolio profesional púb
 | UD6 | Introducción al Machine Learning | [Ver](./T3-Mineria-Datos/notebooks/UD06-Introduccion-ML.md) ✅ |
 | UD7 | Extracción de estructura de los datos, Clustering | [Ver](./T3-Mineria-Datos/notebooks/UD07-Clustering.md) ✅ |
 | UD8 | Clasificación | [Ver](./T3-Mineria-Datos/notebooks/UD08-Clasificacion.md) ✅ |
+| UD9 | Redes neuronales y Deep Learning | [Ver](./T3-Mineria-Datos/notebooks/UD09-Redes-Neuronales-Deep-Learning.md) ✅ |
 
 **Foros:** [Foro UD7 — Kaggle: Datos compartidos](./T3-Mineria-Datos/foros/Foro-UD7-Kaggle-Datos-Compartidos.md) ✅
 
-**Código:** [Playbook de clustering](./T3-Mineria-Datos/codigo/playbook_clustering.py) · [Análisis RFM](./T3-Mineria-Datos/codigo/analisis_rfm.py) · [Comparar clasificadores](./T3-Mineria-Datos/codigo/comparar_clasificadores.py) · [Evaluar un clasificador](./T3-Mineria-Datos/codigo/evaluar_clasificador.py)
+**Código:** [Playbook de clustering](./T3-Mineria-Datos/codigo/playbook_clustering.py) · [Análisis RFM](./T3-Mineria-Datos/codigo/analisis_rfm.py) · [Comparar clasificadores](./T3-Mineria-Datos/codigo/comparar_clasificadores.py) · [Evaluar un clasificador](./T3-Mineria-Datos/codigo/evaluar_clasificador.py) · [Redes neuronales: optimizadores y Hopfield](./T3-Mineria-Datos/codigo/redes_neuronales_optimizadores_hopfield.py)
 
 **Actividades prácticas:**
 - [Actividad Práctica 1 — Minería de datos o data mining y el aprendizaje automático](./T3-Mineria-Datos/actividades/Actividad-Practica-1-Mineria-Data-Mining.md) ✅ (modelos y técnicas de Data Mining, minería de textos y Web Mining)
+- [Actividad Práctica 2 — Weka y Data Mining](./T3-Mineria-Datos/actividades/Actividad-Practica-2-Weka-Data-Mining.md) ✅ (qué es Weka, técnicas de Data Mining en Weka e interfaces)
 
 ---
 
@@ -231,6 +236,7 @@ Checklists paso a paso, reutilizables cada vez que aplico un tipo de análisis r
 | ANOVA de un factor en Python (5 pasos: organizar datos → F y p-valor → desglose manual → comparar vs. crítico → interpretar) | ADME | [Ver dentro de Actividad 2](./T2-Analisis-Datos-Metodos-Estadisticos/actividades/Actividad2-Analisis-Estadistico-UD6-10.md#️-way-of-work--anova-de-un-factor-python) |
 | Pruebas No Paramétricas en Python — Mann-Whitney/Wilcoxon (5 pasos: tipo de comparación → elegir prueba → definir H1 → ejecutar → interpretar mediana) | ADME | [Ver dentro de Actividad 2](./T2-Analisis-Datos-Metodos-Estadisticos/actividades/Actividad2-Analisis-Estadistico-UD6-10.md#️-way-of-work--pruebas-no-paramétricas-python) |
 | Redes Neuronales con TensorFlow (6 pasos: preparar datos → arquitectura → compilar → entrenar → predecir → revisar pesos) | ADME | [Ver dentro de Actividad 2](./T2-Analisis-Datos-Metodos-Estadisticos/actividades/Actividad2-Analisis-Estadistico-UD6-10.md#️-way-of-work--redes-neuronales-con-tensorflow-python) |
+| Elegir y diseñar una RNA (datos → topología → estructura → validación; compara train vs prueba y CV-AP; código en Python probado) | Fundamentos de ML | [Ver dentro de UD09](./T3-Fundamentos-ML/notebooks/UD09-Construccion-RNA.md#4-python-ejecutado-propio--construccion_rnapy) |
 | Evaluar un clasificador (matriz de confusión → métricas → umbral y costo → ROC-AUC vs PR-AUC → buenas prácticas; código en Python probado) | Minería de Datos | [Ver dentro de UD08](./T3-Mineria-Datos/notebooks/UD08-Clasificacion.md#6-complemento-cómo-medir-un-clasificador--evaluar_clasificadorpy) |
 | Clustering — del dato al algoritmo (Playbook, 8 pasos: objetivo → preparar → explorar y graficar → diagnosticar forma → elegir candidatos → parámetros (k, ε) → validar → documentar; función en Python probada) | Minería de Datos | [Ver dentro de UD07](./T3-Mineria-Datos/notebooks/UD07-Clustering.md#7--playbook-de-los-datos-al-algoritmo) |
 
