@@ -23,7 +23,7 @@ Asignatura enfocada en los fundamentos del Machine Learning y las Redes Neuronal
 | UD6 | Mecanismos de aprendizaje | [Ver](./notebooks/UD06-Mecanismos-Aprendizaje.md) ✅ | S6 |
 | UD7 | Topologías de las RNA | [Ver](./notebooks/UD07-Topologias-RNA.md) ✅ | S7 |
 | UD8 | El perceptrón | [Ver](./notebooks/UD08-El-Perceptron.md) ✅ | S8 |
-| UD9 | Construcción de una RNA | Pendiente | S9 |
+| UD9 | Construcción de una RNA | [Ver](./notebooks/UD09-Construccion-RNA.md) ✅ | S9 |
 | UD10 | Interpretación de resultados | Pendiente | S10 |
 
 ---
@@ -34,7 +34,7 @@ Asignatura enfocada en los fundamentos del Machine Learning y las Redes Neuronal
 |---|---|---|---|
 | Foro UD3 | Redes Neuronales Artificiales | S3 | [Ver](./foros/Foro-UD3-Redes-Neuronales-Artificiales.md) ✅ |
 | Foro UD7 | Topologías de las RNA | S7 | [Ver](./foros/Foro-UD7-Topologias-RNA.md) ✅ |
-| Foro UD9 | Construcción de una RNA | S9 | Pendiente |
+| Foro UD9 | Diseño y estructura en redes neuronales artificiales | S9 | [Ver](./foros/Foro-UD9-Diseno-Estructura-RNA.md) ✅ |
 
 ---
 
@@ -53,6 +53,7 @@ Asignatura enfocada en los fundamentos del Machine Learning y las Redes Neuronal
 |---|---|
 | [`perceptron_backprop.py`](./codigo/perceptron_backprop.py) | Perceptrón desde cero (AND, OR, XOR), backpropagation en un MLP 2-3-1 con verificación del gradiente, perceptrón vs MLP en datos reales |
 | [`traza_or.py`](./codigo/traza_or.py) | Seguimiento época por época de la regla de aprendizaje en OR |
+| [`construccion_rna.py`](./codigo/construccion_rna.py) | Datos mixtos simulados (churn): preparación, topologías, activaciones, regularización; train vs prueba y CV-AP |
 
 ---
 
