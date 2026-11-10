@@ -1,7 +1,7 @@
 # ⛏️ Minería de Datos
 
 **Trimestre 3 — Universidad DaVinci**
-📅 Septiembre – Noviembre 2026 | 10 semanas | 10 Unidades Didácticas
+📅 Septiembre – Noviembre 2026 | 10 semanas | 9 Unidades Didácticas
 
 ---
 
@@ -16,7 +16,7 @@ Asignatura enfocada en el proceso de Minería de Datos (Data Mining) y su relaci
 | Unidad | Tema | Notebook | Semana |
 |---|---|---|---|
 | UD1 | Minería de Datos o Data Mining y el Aprendizaje Automático | [Ver](./notebooks/UD01-Mineria-Datos-Aprendizaje-Automatico.md) ✅ | S1 |
-| UD2 | Acondicionamiento de datos (Weka) | [Ver](./notebooks/UD02-WEKA-Data-Mining.md) ✅ | S2 |
+| UD2 | WEKA y Data Mining | [Ver](./notebooks/UD02-WEKA-Data-Mining.md) ✅ | S2 |
 | UD3 | Inteligencia artificial | [Ver](./notebooks/UD03-Introduccion-IA.md) ✅ | S3 |
 | UD4 | Introducción al PLN | [Ver](./notebooks/UD04-Introduccion-PLN.md) ✅ | S4 |
 | UD5 | PLN en Python (NLTK) | [Ver](./notebooks/UD05-PLN-Python.md) ✅ | S5 |
@@ -24,9 +24,8 @@ Asignatura enfocada en el proceso de Minería de Datos (Data Mining) y su relaci
 | UD7 | Extracción de estructura de los datos, Clustering | [Ver](./notebooks/UD07-Clustering.md) ✅ | S7 |
 | UD8 | Clasificación | [Ver](./notebooks/UD08-Clasificacion.md) ✅ | S8 |
 | UD9 | Redes neuronales y Deep Learning | [Ver](./notebooks/UD09-Redes-Neuronales-Deep-Learning.md) ✅ | S9 |
-| UD10 | Evaluación de Modelos y Clustering Difuso | Pendiente | S10 |
 
-> ℹ️ Temario según el cronograma actualizado del campus (UD7: Clustering; UD8: Clasificación; UD9: Redes neuronales y Deep Learning).
+> ℹ️ El temario del campus tiene **9 unidades** (UD1–UD9); los títulos coinciden con las guías publicadas en el campus.
 
 ---
 
