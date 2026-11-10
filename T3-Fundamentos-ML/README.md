@@ -24,7 +24,7 @@ Asignatura enfocada en los fundamentos del Machine Learning y las Redes Neuronal
 | UD7 | Topologías de las RNA | [Ver](./notebooks/UD07-Topologias-RNA.md) ✅ | S7 |
 | UD8 | El perceptrón | [Ver](./notebooks/UD08-El-Perceptron.md) ✅ | S8 |
 | UD9 | Construcción de una RNA | [Ver](./notebooks/UD09-Construccion-RNA.md) ✅ | S9 |
-| UD10 | Interpretación de resultados | Pendiente | S10 |
+| UD10 | Interpretación de resultados | [Ver](./notebooks/UD10-Interpretacion-Resultados.md) ✅ | S10 |
 
 ---
 
@@ -43,7 +43,7 @@ Asignatura enfocada en los fundamentos del Machine Learning y las Redes Neuronal
 | Actividad | Cubre | Semana | Carpeta |
 |---|---|---|---|
 | Actividad Integradora 1 ✅ | UD1–UD5 | S5 | [Ver](./actividades/Actividad-Integradora-1-RNA-Keras/README.md) |
-| Actividad Integradora Final | UD10 | S10 | Pendiente |
+| Actividad Integradora 2 ✅ | UD6–UD10 (artículo científico) | S10 | [Ver](./actividades/Actividad-Integradora-2-Articulo-Cientifico.md) |
 
 ---
 
@@ -54,6 +54,8 @@ Asignatura enfocada en los fundamentos del Machine Learning y las Redes Neuronal
 | [`perceptron_backprop.py`](./codigo/perceptron_backprop.py) | Perceptrón desde cero (AND, OR, XOR), backpropagation en un MLP 2-3-1 con verificación del gradiente, perceptrón vs MLP en datos reales |
 | [`traza_or.py`](./codigo/traza_or.py) | Seguimiento época por época de la regla de aprendizaje en OR |
 | [`construccion_rna.py`](./codigo/construccion_rna.py) | Datos mixtos simulados (churn): preparación, topologías, activaciones, regularización; train vs prueba y CV-AP |
+| [`interpretacion_resultados.py`](./codigo/interpretacion_resultados.py) | MAE, MSE, RMSE, RMSLE, R², Log Loss, benchmark y tolerancia ±20 % (montos simulados); curvas de aprendizaje en cáncer de mama |
+| [`experimento_cancer_mama.py`](./codigo/experimento_cancer_mama.py) | Experimento del artículo: logística vs MLP (16) vs MLP (32, 16) en cáncer de mama |
 
 ---
 
